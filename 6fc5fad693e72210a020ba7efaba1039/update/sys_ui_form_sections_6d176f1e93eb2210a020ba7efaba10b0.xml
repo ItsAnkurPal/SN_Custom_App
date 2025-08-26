@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="6d176f1e93eb2210a020ba7efaba10b0" sys_domain="global" table="x_1812780_globalch_gmc" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:05:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69176f1e93eb2210a020ba7efaba10b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1812780_globalch_gmc" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">6d176f1e93eb2210a020ba7efaba10b0</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:05:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:05:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29176f1e93eb2210a020ba7efaba10b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1812780_globalch_gmc" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">6d176f1e93eb2210a020ba7efaba10b0</sys_ui_form>
+            <sys_ui_section caption="Beds:DDF Definitions" display_value="Beds:DDF Definitions" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">e1176f1e93eb2210a020ba7efaba10b3</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:05:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:06:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9037a35e93eb2210a020ba7efaba1081</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1812780_globalch_gmc" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">6d176f1e93eb2210a020ba7efaba10b0</sys_ui_form>
+            <sys_ui_section caption="Data Stewardship Team" display_value="Data Stewardship Team" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">0c37a35e93eb2210a020ba7efaba107e</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:06:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:06:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5547635e93eb2210a020ba7efaba10e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1812780_globalch_gmc" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">6d176f1e93eb2210a020ba7efaba10b0</sys_ui_form>
+            <sys_ui_section caption="Data Stewardship Manager " display_value="Data Stewardship Manager " name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">5d47635e93eb2210a020ba7efaba10df</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:06:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:06:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3257671e93eb2210a020ba7efaba10d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1812780_globalch_gmc" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">6d176f1e93eb2210a020ba7efaba10b0</sys_ui_form>
+            <sys_ui_section caption="Notes &amp; Activities" display_value="Notes &amp; Activities" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">f657671e93eb2210a020ba7efaba10d6</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:06:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1812780_globalch_gmc</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:05:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d176f1e93eb2210a020ba7efaba10b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1812780_globalch_gmc</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+            <sys_update_name>sys_ui_form_sections_6d176f1e93eb2210a020ba7efaba10b0</sys_update_name>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:05:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Global Cure Health ">ec57361a93e72210a020ba7efaba10a5</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Care Account</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1812780_globalch_care_account</name>
+        <order>1</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-26 09:37:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2857365e93e72210a020ba7efaba10f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Care Account</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_update_name>sys_app_module_2857365e93e72210a020ba7efaba10f9</sys_update_name>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-26 14:56:01</sys_updated_on>
+        <timeline_page/>
+        <title>Care Account</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</application>
+        <file_path/>
+        <instance_id>05da8226ebd82adc5a2dfceacad0cd0a</instance_id>
+        <instance_name>dev301146</instance_name>
+        <name>sys_app_module_2857365e93e72210a020ba7efaba10f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Global Cure Health ">ec57361a93e72210a020ba7efaba10a5</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Care Account</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1812780_globalch_care_account</name><order>1</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>Ankur.Pal</sys_created_by><sys_created_on>2025-08-26 09:37:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2857365e93e72210a020ba7efaba10f9</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Care Account</sys_name><sys_overrides/><sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package><sys_policy/><sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope><sys_update_name>sys_app_module_2857365e93e72210a020ba7efaba10f9</sys_update_name><sys_updated_by>Ankur.Pal</sys_updated_by><sys_updated_on>2025-08-26 14:56:01</sys_updated_on><timeline_page/><title>Care Account</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1996372810</payload_hash>
+        <record_name>Care Account</record_name>
+        <reverted_from/>
+        <source>03777a5e93e72210a020ba7efaba10da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-26 14:56:01</sys_created_on>
+        <sys_id>5d5000ae936f2210a020ba7efaba103e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198e6e0ff530000001</sys_recorded_at>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-26 14:56:01</sys_updated_on>
+        <type>Module</type>
+        <update_guid>155000aeb66f2210e6a8168eb650b63e</update_guid>
+        <update_guid_history>155000aeb66f2210e6a8168eb650b63e:1996372810,6457365ef3e7221033fddb106156d1fc:418432511</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Care Account">8cb100ee936f2210a020ba7efaba104b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-26 15:01:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>4c7e006eba944a149fc215be081dbd51</sys_id>
+        <sys_metadata>2857365e93e72210a020ba7efaba10f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1812780_globalch_care_account</sys_name>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_scope_delete display_value="">101cddaa51ed47378f45073bd1f47ef1</sys_scope_delete>
+        <sys_update_name>sys_app_module_2857365e93e72210a020ba7efaba10f9</sys_update_name>
+        <sys_update_version display_value="sys_app_module_2857365e93e72210a020ba7efaba10f9">5d5000ae936f2210a020ba7efaba103e</sys_update_version>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-26 15:01:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

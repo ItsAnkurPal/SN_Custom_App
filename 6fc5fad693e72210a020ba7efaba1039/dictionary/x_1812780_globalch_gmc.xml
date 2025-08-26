@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a75d075a936b2210a020ba7efaba1018" label="GMC" max_length="40" name="x_1812780_globalch_gmc" type="collection">
+        <element label="Taxonomy Description/Definition" max_length="1000" name="taxonomy_description_definition" type="string"/>
+        <element label="NPI Description" max_length="400" name="npi_description" type="string"/>
+        <element label="Review Code" max_length="40" name="review_code" type="string"/>
+        <element label="Taxonomy URL" max_length="1024" name="taxonomy_url" type="url"/>
+        <element label="Review Notes" max_length="400" name="review_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="POS Description Approved" max_length="2000" name="u_pos_desc_approved" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Work Notes" max_length="4000" name="u_work_notes" type="journal"/>
+        <element label="Beds-Skilled" max_length="40" name="u_beds_skilled" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Service Address" max_length="40" name="u_service_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="NPI #" max_length="500" name="u_npi2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval" max_length="40" name="u_approval" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Direct Bill Method Type" max_length="40" name="u_direct_bill_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Corporate Owner" max_length="40" name="u_corp_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DBA" max_length="500" name="u_dba" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Legal Name of Facility" max_length="300" name="u_string_15" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes/Comments" max_length="500" name="u_notes_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Billing Method Type" max_length="40" name="u_billing_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="DDF/Enterprise ID" max_length="40" name="u_enterprise_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Billing Format" max_length="40" name="u_billing_format" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Medical Services Provided by Facility" max_length="40" name="u_msp_by_fac" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="NPI #" max_length="500" name="u_npi" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Client Description" max_length="40" name="u_client_description" type="string"/>
+        <element label="Corp Code #" max_length="40" name="u_corp_code" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Telcor ID" max_length="40" name="u_telcor_id" type="string"/>
+        <element attributes="encode_utf8=false" label="Submitted by" max_length="32" name="u_submitted_by" reference="sys_user" type="reference"/>
+        <element label="NPI #" max_length="255" name="npi" type="integer"/>
+        <element choice="1" label="Multiple NPIs for Client" max_length="40" name="multiple_npis_for_client" type="choice">
+            <choice/>
+        </element>
+        <element label="Client" max_length="32" name="client" reference="sys_user" type="reference"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice/>
+        </element>
+        <element label="Please contact facility for NPI number" max_length="1024" name="please_contact_facility_for_npi_number" type="url"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Zip Code" max_length="40" name="u_zip" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Street" max_length="400" name="u_street" type="string"/>
+        <element label="Contact #" max_length="40" name="u_contact" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Market Sub-Category" max_length="40" name="u_market_sc" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Market Segment" max_length="40" name="u_ms" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Market Category" max_length="40" name="u_market_category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+            </choice>
+        </element>
+        <element label="Client Description Approved" max_length="40" name="client_description_approved" type="string"/>
+        <element label="Place of Service Code Approved" max_length="40" name="place_of_service_code_approved" type="string"/>
+        <element label="NPI # Approved" max_length="255" name="npi_approved" type="integer"/>
+        <element label="Date Approved" max_length="255" name="date_approved" type="glide_date"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Watchlist" max_length="1024" name="u_watchlist" type="glide_list"/>
+        <element label="Hospital" max_length="255" name="hospital" type="boolean"/>
+        <element label="Number of Residents" max_length="255" name="number_of_residents" type="integer"/>
+        <element label="Residential/ALF/Independent/Home Care" max_length="255" name="residential_alf_independent_home_care" type="boolean"/>
+        <element label="Beds-Non Skilled" max_length="255" name="beds_non_skilled" type="boolean"/>
+        <element label="Client Billing Type" max_length="40" name="client_billing_type" type="string"/>
+        <element label="Cost Center" max_length="40" name="cost_center" type="string"/>
+        <element label="Please contact facility for NPI number" max_length="1024" name="please_contact_facility_for_npi_number2" type="url"/>
+        <element label="Commercial" max_length="255" name="commercial" type="boolean"/>
+        <element label="Correctional" max_length="255" name="correctional" type="boolean"/>
+        <element label="Other" max_length="255" name="other" type="boolean"/>
+        <element label="Number of beds in Beds-Skilled" max_length="255" name="number_of_beds_in_beds_skilled" type="integer"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="client"/>
+        </index>
+        <index name="index4">
+            <element name="u_submitted_by"/>
+        </index>
+    </element>
+</database>

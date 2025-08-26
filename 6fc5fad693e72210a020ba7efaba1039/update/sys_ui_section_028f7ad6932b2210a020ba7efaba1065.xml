@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Service Line Opportunity" section_id="028f7ad6932b2210a020ba7efaba1065" sys_domain="global" table="x_1812780_globalch_care_account" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_xray_status</element>
+            <position>0</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 10:37:37</sys_created_on>
+            <sys_id>9035c7de932b2210a020ba7efaba1087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Line Opportunity" display_value="Service Line Opportunity" name="x_1812780_globalch_care_account" sys_domain="global" view="Default view">028f7ad6932b2210a020ba7efaba1065</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 10:37:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ultrasound_status</element>
+            <position>1</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 10:37:37</sys_created_on>
+            <sys_id>1835c7de932b2210a020ba7efaba1087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Line Opportunity" display_value="Service Line Opportunity" name="x_1812780_globalch_care_account" sys_domain="global" view="Default view">028f7ad6932b2210a020ba7efaba1065</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 10:37:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ekg_status</element>
+            <position>2</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 10:37:38</sys_created_on>
+            <sys_id>9c35c7de932b2210a020ba7efaba1087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Line Opportunity" display_value="Service Line Opportunity" name="x_1812780_globalch_care_account" sys_domain="global" view="Default view">028f7ad6932b2210a020ba7efaba1065</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 10:37:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ekg_patch_status</element>
+            <position>3</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 10:37:38</sys_created_on>
+            <sys_id>1435c7de932b2210a020ba7efaba1088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Line Opportunity" display_value="Service Line Opportunity" name="x_1812780_globalch_care_account" sys_domain="global" view="Default view">028f7ad6932b2210a020ba7efaba1065</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 10:37:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 10:37:38</sys_created_on>
+            <sys_id>9835c7de932b2210a020ba7efaba1088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Line Opportunity" display_value="Service Line Opportunity" name="x_1812780_globalch_care_account" sys_domain="global" view="Default view">028f7ad6932b2210a020ba7efaba1065</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 10:37:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lab_status</element>
+            <position>5</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 10:37:38</sys_created_on>
+            <sys_id>1035c7de932b2210a020ba7efaba1089</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Line Opportunity" display_value="Service Line Opportunity" name="x_1812780_globalch_care_account" sys_domain="global" view="Default view">028f7ad6932b2210a020ba7efaba1065</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 10:37:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vascular_status</element>
+            <position>6</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 10:37:38</sys_created_on>
+            <sys_id>9435c7de932b2210a020ba7efaba1089</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Line Opportunity" display_value="Service Line Opportunity" name="x_1812780_globalch_care_account" sys_domain="global" view="Default view">028f7ad6932b2210a020ba7efaba1065</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 10:37:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Service Line Opportunity</caption>
+            <header>false</header>
+            <name>x_1812780_globalch_care_account</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 10:12:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>028f7ad6932b2210a020ba7efaba1065</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_1812780_globalch_care_account</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+            <sys_update_name>sys_ui_section_028f7ad6932b2210a020ba7efaba1065</sys_update_name>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 10:22:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

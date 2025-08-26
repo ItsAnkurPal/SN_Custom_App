@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="57f3931693ab2210a020ba7efaba102b" sys_domain="global" table="x_1812780_globalch_gmc" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:04</sys_created_on>
+            <sys_id>30feab1a932f2210a020ba7efaba1036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:04</sys_updated_on>
+            <text>Sales Team Section</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:04</sys_created_on>
+            <sys_id>3cfeab1a932f2210a020ba7efaba1036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:04</sys_updated_on>
+            <text>\n</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:04</sys_created_on>
+            <sys_id>74feab1a932f2210a020ba7efaba1037</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:04</sys_updated_on>
+            <text>Any/All NPI #'s associated with the client location</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:04</sys_created_on>
+            <sys_id>78feab1a932f2210a020ba7efaba1036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:04</sys_updated_on>
+            <text>Corporation Ownership Demographics</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:04</sys_created_on>
+            <sys_id>b0feab1a932f2210a020ba7efaba1037</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:04</sys_updated_on>
+            <text>NPI representing the facility to be serviced</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:04</sys_created_on>
+            <sys_id>b4feab1a932f2210a020ba7efaba1036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:04</sys_updated_on>
+            <text>Facility and Client Demographics</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:04</sys_created_on>
+            <sys_id>f0feab1a932f2210a020ba7efaba1036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:04</sys_updated_on>
+            <text>Market Segment Details</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:04</sys_created_on>
+            <sys_id>fcfeab1a932f2210a020ba7efaba1036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:04</sys_updated_on>
+            <text>Applicable Facility Type for PACC</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>49feab1a932f2210a020ba7efaba1053</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client</element>
+            <position>1</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>cdfeab1a932f2210a020ba7efaba1053</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>45feab1a932f2210a020ba7efaba1054</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c9feab1a932f2210a020ba7efaba1054</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>4</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>41feab1a932f2210a020ba7efaba1055</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>5</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c5feab1a932f2210a020ba7efaba1055</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>4dfeab1a932f2210a020ba7efaba1055</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>30feab1a932f2210a020ba7efaba1036</element>
+            <position>7</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c1feab1a932f2210a020ba7efaba1056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>8</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>49feab1a932f2210a020ba7efaba1056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_submitted_by</element>
+            <position>9</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>cdfeab1a932f2210a020ba7efaba1056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>45feab1a932f2210a020ba7efaba1057</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_contact</element>
+            <position>11</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c9feab1a932f2210a020ba7efaba1057</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>41feab1a932f2210a020ba7efaba1058</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>f0feab1a932f2210a020ba7efaba1036</element>
+            <position>13</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c5feab1a932f2210a020ba7efaba1058</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>14</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>4dfeab1a932f2210a020ba7efaba1058</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ms</element>
+            <position>15</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c1feab1a932f2210a020ba7efaba1059</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>16</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>49feab1a932f2210a020ba7efaba1059</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_market_category</element>
+            <position>17</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>cdfeab1a932f2210a020ba7efaba1059</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_market_sc</element>
+            <position>18</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>45feab1a932f2210a020ba7efaba105a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>19</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c9feab1a932f2210a020ba7efaba105a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>b4feab1a932f2210a020ba7efaba1036</element>
+            <position>20</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>41feab1a932f2210a020ba7efaba105b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_enterprise_id</element>
+            <position>21</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c5feab1a932f2210a020ba7efaba105b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_telcor_id</element>
+            <position>22</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>4dfeab1a932f2210a020ba7efaba105b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dba</element>
+            <position>23</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c1feab1a932f2210a020ba7efaba105c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_15</element>
+            <position>24</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>49feab1a932f2210a020ba7efaba105c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>25</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>cdfeab1a932f2210a020ba7efaba105c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_street</element>
+            <position>26</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>45feab1a932f2210a020ba7efaba105d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>27</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c9feab1a932f2210a020ba7efaba105d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_city</element>
+            <position>28</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>41feab1a932f2210a020ba7efaba105e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_zip</element>
+            <position>29</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c5feab1a932f2210a020ba7efaba105e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>30</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>4dfeab1a932f2210a020ba7efaba105e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>31</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c1feab1a932f2210a020ba7efaba105f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>32</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>49feab1a932f2210a020ba7efaba105f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>33</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>cdfeab1a932f2210a020ba7efaba105f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>34</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>45feab1a932f2210a020ba7efaba1060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_notes_comments</element>
+            <position>35</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c9feab1a932f2210a020ba7efaba1060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>78feab1a932f2210a020ba7efaba1036</element>
+            <position>36</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>41feab1a932f2210a020ba7efaba1061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>37</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c5feab1a932f2210a020ba7efaba1061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_corp_owner</element>
+            <position>38</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>4dfeab1a932f2210a020ba7efaba1061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approval</element>
+            <position>39</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c1feab1a932f2210a020ba7efaba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>40</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>49feab1a932f2210a020ba7efaba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_corp_code</element>
+            <position>41</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>cdfeab1a932f2210a020ba7efaba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>42</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>45feab1a932f2210a020ba7efaba1063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>3cfeab1a932f2210a020ba7efaba1036</element>
+            <position>43</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c9feab1a932f2210a020ba7efaba1063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>44</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>41feab1a932f2210a020ba7efaba1064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_msp_by_fac</element>
+            <position>45</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c5feab1a932f2210a020ba7efaba1064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_client_description</element>
+            <position>46</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>4dfeab1a932f2210a020ba7efaba1064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>47</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c1feab1a932f2210a020ba7efaba1065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_billing_method</element>
+            <position>48</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>49feab1a932f2210a020ba7efaba1065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_direct_bill_method</element>
+            <position>49</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>cdfeab1a932f2210a020ba7efaba1065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_billing_format</element>
+            <position>50</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>45feab1a932f2210a020ba7efaba1066</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_service_address</element>
+            <position>51</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c9feab1a932f2210a020ba7efaba1066</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fcfeab1a932f2210a020ba7efaba1036</element>
+            <position>52</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>41feab1a932f2210a020ba7efaba1067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>53</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c5feab1a932f2210a020ba7efaba1067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>b0feab1a932f2210a020ba7efaba1037</element>
+            <position>54</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>4dfeab1a932f2210a020ba7efaba1067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_npi</element>
+            <position>55</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>c1feab1a932f2210a020ba7efaba1068</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>74feab1a932f2210a020ba7efaba1037</element>
+            <position>56</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>49feab1a932f2210a020ba7efaba1068</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_npi2</element>
+            <position>57</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 13:40:05</sys_created_on>
+            <sys_id>cdfeab1a932f2210a020ba7efaba1068</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1812780_globalch_gmc" sys_domain="global" view="Default view">57f3931693ab2210a020ba7efaba102b</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 13:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1812780_globalch_gmc</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 11:42:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57f3931693ab2210a020ba7efaba102b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1812780_globalch_gmc</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+            <sys_update_name>sys_ui_section_57f3931693ab2210a020ba7efaba102b</sys_update_name>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 11:42:17</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

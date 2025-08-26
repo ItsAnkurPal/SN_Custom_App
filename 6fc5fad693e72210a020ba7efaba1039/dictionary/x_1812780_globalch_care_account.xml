@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3f07fe1e93e72210a020ba7efaba1003" label="Care Account" max_length="40" name="x_1812780_globalch_care_account" type="collection">
+        <element label="Effective/Term Date" max_length="255" name="effective_term_date" type="glide_date_time"/>
+        <element label="Historical Corp Owner" max_length="40" name="historical_corp_owner" type="string"/>
+        <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="Lab Status" max_length="40" name="lab_status2" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="EKG Patch Status" max_length="40" name="ekg_patch_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Able" sequence="3" value="able"/>
+                <element inactive_on_update="false" label="Current" sequence="0" value="current"/>
+                <element inactive_on_update="false" label="Unable" sequence="1" value="unable"/>
+                <element inactive_on_update="false" label="Future" sequence="2" value="future"/>
+            </choice>
+        </element>
+        <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="Ultrasound Status" max_length="40" name="ultrasound_status2" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="EKG Status" max_length="40" name="ekg_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Able" sequence="3" value="able"/>
+                <element inactive_on_update="false" label="Current" sequence="0" value="current"/>
+                <element inactive_on_update="false" label="Unable" sequence="1" value="unable"/>
+                <element inactive_on_update="false" label="Future" sequence="2" value="future"/>
+            </choice>
+        </element>
+        <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="Ultrasound Status" max_length="40" name="ultrasound_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Able" sequence="3" value="able"/>
+                <element inactive_on_update="false" label="Unable" sequence="1" value="unable"/>
+                <element inactive_on_update="false" label="Current" sequence="0" value="current"/>
+                <element inactive_on_update="false" label="Future" sequence="2" value="future"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="X-Ray Status" max_length="40" name="u_xray_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Future" sequence="2" value="future"/>
+                <element inactive_on_update="false" label="Able" sequence="3" value="able"/>
+                <element inactive_on_update="false" label="Current" sequence="0" value="current"/>
+                <element inactive_on_update="false" label="Unable" sequence="1" value="unable"/>
+            </choice>
+        </element>
+        <element label="Effective Date" max_length="255" name="effective_date_mo" type="glide_date_time"/>
+        <element label="Current Managing Owner" max_length="40" name="current_managing_owner" type="string"/>
+        <element label="Effective Date" max_length="255" name="effective_date" type="glide_date_time"/>
+        <element label="Historical Managing Owner" max_length="40" name="historical_managing_owner" type="string"/>
+        <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="Vascular Status" max_length="40" name="vascular_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Able" sequence="3" value="able"/>
+                <element inactive_on_update="false" label="Current" sequence="0" value="current"/>
+                <element inactive_on_update="false" label="Unable" sequence="1" value="unable"/>
+                <element inactive_on_update="false" label="Future" sequence="2" value="future"/>
+            </choice>
+        </element>
+        <element choice="3" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="EKG Patch Status" max_length="40" name="ekg_patch_status2" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="X-Ray Status" max_length="40" name="x_ray_status" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="Vascular Status" max_length="40" name="vascular_status2" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="EKG Status" max_length="40" name="ekg_status2" type="choice">
+            <choice/>
+        </element>
+        <element label="Effective/Term Date" max_length="255" name="effective_term_date_mo" type="glide_date_time"/>
+        <element label="Current Corp Owner" max_length="40" name="current_corp_owner" type="string"/>
+        <element label="Lab Market Density" max_length="40" name="u_lab_md" type="integer"/>
+        <element label="Comments" max_length="500" name="comments" type="string"/>
+        <element label="Office Phone" max_length="40" name="u_office_phone" type="integer"/>
+        <element attributes="encode_utf8=false" label="Assigned Rep" max_length="32" name="u_assigned_rep" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Client Account Number" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="u_country" type="string"/>
+        <element label="Work Notes" max_length="255" name="work_notes" type="journal_input"/>
+        <element label="Audit" max_length="255" name="audit" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Region" max_length="40" name="u_region" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Business Segment Representative" max_length="40" name="u_bsr" type="string"/>
+        <element label="Enterprise Client ID" max_length="255" name="enterprise_client_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Part of CCRC" max_length="40" name="u_ccrc" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="OTC" max_length="40" name="u_otc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Market Category" max_length="40" name="u_market_category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Client Status" max_length="40" name="u_client_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Street" max_length="40" name="u_street" type="string"/>
+        <element label="US Market Density" max_length="40" name="u_us_md" type="integer"/>
+        <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="Lab Status" max_length="40" name="lab_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Able" sequence="3" value="able"/>
+                <element inactive_on_update="false" label="Current" sequence="0" value="current"/>
+                <element inactive_on_update="false" label="Unable" sequence="1" value="unable"/>
+                <element inactive_on_update="false" label="Future" sequence="2" value="future"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is Corporate Client?" max_length="40" name="u_is_cp" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+            </choice>
+        </element>
+        <element label="Enterprise Client ID" max_length="40" name="u_enterprise_cid" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Market Segment" max_length="40" name="u_ms" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+            </choice>
+        </element>
+        <element label="Zip Code" max_length="40" name="u_zip_code" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Office Fax" max_length="40" name="u_office_fax" type="string"/>
+        <element label="X-Ray Market Density" max_length="40" name="u_x_ray_md" type="integer"/>
+        <element label="Client Medicare Provider / CNN#" max_length="40" name="client_medicare_provider_cnn" type="string"/>
+        <element label="Telcor Saas ID" max_length="40" name="telcor_saas_id" type="string"/>
+        <element label="Client Collector Name (SaaS)" max_length="40" name="client_collector_name_saas" type="string"/>
+        <element label="Client Collector Name (On Prem)" max_length="40" name="client_collector_name_on_prem" type="string"/>
+        <element label="OnPrem Telcor ID" max_length="255" name="onprem_telcor_id" type="integer"/>
+        <element label="Client Biller Name (SaaS)" max_length="40" name="client_biller_name" type="string"/>
+        <element label="Client Biller Name (On Prem)" max_length="40" name="client_biller_name_on_prem" type="string"/>
+        <element attributes="encode_utf8=false" label="Client Name" max_length="32" name="client_name" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="client_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_assigned_rep"/>
+        </index>
+    </element>
+</database>

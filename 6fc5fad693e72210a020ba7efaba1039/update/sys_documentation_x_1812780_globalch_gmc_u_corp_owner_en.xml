@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_corp_owner" label="Corporate Owner" language="en" table="x_1812780_globalch_gmc">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_corp_owner</element>
+            <help/>
+            <hint/>
+            <label>Corporate Owner</label>
+            <language>en</language>
+            <name>x_1812780_globalch_gmc</name>
+            <plural>Corporate Owners</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-26 12:58:17</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Corporate Owner</sys_name>
+            <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+            <sys_update_name>sys_documentation_x_1812780_globalch_gmc_u_corp_owner_en</sys_update_name>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-26 12:58:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

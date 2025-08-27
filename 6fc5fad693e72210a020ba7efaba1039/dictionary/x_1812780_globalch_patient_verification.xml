@@ -1,3 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="f3331ca693ef2210a020ba7efaba1060" label="Patient Verification" max_length="40" name="x_1812780_globalch_patient_verification" type="collection"/>
+    <element db_object_id="f3331ca693ef2210a020ba7efaba1060" label="Patient Verification" max_length="40" name="x_1812780_globalch_patient_verification" type="collection">
+        <element choice="1" label="User Status" max_length="40" name="user_status" type="choice">
+            <choice/>
+        </element>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Last Effective Date" max_length="255" name="last_effective_date" type="glide_date"/>
+        <element label="Address" max_length="500" name="address" type="string"/>
+        <element label="Contact Number" max_length="255" name="contact_number" type="integer"/>
+        <element label="Contact Email" max_length="255" name="contact_email" type="string_full_utf8"/>
+        <element label="Name of the Client" max_length="40" name="name_of_the_client" type="string"/>
+    </element>
 </database>

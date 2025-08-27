@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Submit A GMC">4944542a93ef2210a020ba7efaba10d6</sc_cat_item>
-        <sc_category display_value="Health, Environment, and Safety">d2f80b5bc611227a0079df82295ab196</sc_category>
+        <sc_cat_item display_value="Submit A GMC">8464b26e93eb6210a020ba7efaba1091</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>Ankur.Pal</sys_created_by>
-        <sys_created_on>2025-08-26 16:32:23</sys_created_on>
-        <sys_id>b866d8ea93ef2210a020ba7efaba1036</sys_id>
+        <sys_created_on>2025-08-27 04:11:33</sys_created_on>
+        <sys_id>3a663222932f6210a020ba7efaba1074</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Health, Environment, and Safety.</sys_name>
+        <sys_name>Can We Help You?.</sys_name>
         <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
-        <sys_update_name>sc_cat_item_category_b866d8ea93ef2210a020ba7efaba1036</sys_update_name>
+        <sys_update_name>sc_cat_item_category_3a663222932f6210a020ba7efaba1074</sys_update_name>
         <sys_updated_by>Ankur.Pal</sys_updated_by>
-        <sys_updated_on>2025-08-26 16:32:23</sys_updated_on>
+        <sys_updated_on>2025-08-27 04:11:33</sys_updated_on>
     </sc_cat_item_category>
 </record_update>

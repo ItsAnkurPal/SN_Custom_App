@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Submit A GMC">4944542a93ef2210a020ba7efaba10d6</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-26 16:32:23</sys_created_on>
+        <sys_id>f066d8ea93ef2210a020ba7efaba1032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Submit A GMC</sys_name>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_f066d8ea93ef2210a020ba7efaba1032</sys_update_name>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-26 16:32:23</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</application>
+        <file_path/>
+        <instance_id>05da8226ebd82adc5a2dfceacad0cd0a</instance_id>
+        <instance_name>dev301146</instance_name>
+        <name>sc_cat_item_catalog_f066d8ea93ef2210a020ba7efaba1032</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Submit A GMC">4944542a93ef2210a020ba7efaba10d6</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>Ankur.Pal</sys_created_by><sys_created_on>2025-08-26 16:32:23</sys_created_on><sys_id>f066d8ea93ef2210a020ba7efaba1032</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Submit A GMC</sys_name><sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package><sys_policy/><sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope><sys_update_name>sc_cat_item_catalog_f066d8ea93ef2210a020ba7efaba1032</sys_update_name><sys_updated_by>Ankur.Pal</sys_updated_by><sys_updated_on>2025-08-26 16:32:23</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1282505590</payload_hash>
+        <record_name>Service Catalog.Submit A GMC</record_name>
+        <reverted_from/>
+        <source>03777a5e93e72210a020ba7efaba10da</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-26 16:32:23</sys_created_on>
+        <sys_id>b066d8ea93ef2210a020ba7efaba1036</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198e739369d0000001</sys_recorded_at>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-26 16:32:23</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>b466d8eab7ef2210da512437b8324635</update_guid>
+        <update_guid_history>b466d8eab7ef2210da512437b8324635:1282505590</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Submit A GMC">f436936a93af6210a020ba7efaba10fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-27 06:30:25</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0609270ea0804c4d80401a251b0361f1</sys_id>
+        <sys_metadata>f066d8ea93ef2210a020ba7efaba1032</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Submit A GMC</sys_name>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_parent display_value="Submit A GMC">4944542a93ef2210a020ba7efaba10d6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_scope_delete display_value="">101cddaa51ed47378f45073bd1f47ef1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_f066d8ea93ef2210a020ba7efaba1032</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_f066d8ea93ef2210a020ba7efaba1032">b066d8ea93ef2210a020ba7efaba1036</sys_update_version>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-27 06:30:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

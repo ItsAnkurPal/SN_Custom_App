@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b11900b293e3a210a020ba7efaba10f7" label="Prescription" max_length="40" name="x_1812780_globalch_prescription" type="collection">
+        <element choice="1" label="Does this client require a contract?" max_length="40" name="does_this_client_require_a_contract" type="choice">
+            <choice/>
+        </element>
+        <element label="Market Sub-Category" max_length="40" name="market_sub_category" type="string"/>
+        <element label="Market Segment" max_length="40" name="market_segment" type="string"/>
+        <element label="Non-Certified Skilled" max_length="255" name="non_certified_skilled" type="integer"/>
+        <element choice="1" label="State Complete" max_length="40" name="state_complete" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="State Moved to Pending on" max_length="40" name="state_moved_to_pending_on" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Status Pending" max_length="40" name="status_pending" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Status Moved to Complete on" max_length="40" name="status_moved_to_complete_on" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Does Agreement include Trident Standards Term Conditions?" max_length="40" name="does_agreement_include_trident_standards_term_conditions" type="choice">
+            <choice/>
+        </element>
+        <element label="Market Category" max_length="40" name="market_category" type="string"/>
+        <element label="Managing Corporate Code" max_length="255" name="managing_corporate_code" type="integer"/>
+        <element label="WorkNotes" max_length="255" name="worknotes" type="journal_input"/>
+        <element label="Client NPI" max_length="40" name="client_npi" type="string"/>
+        <element label="Managing Corporate Affiliation" max_length="40" name="managing_corporate_affiliation" type="string"/>
+        <element label="Area of Management" max_length="40" name="area_of_management" type="string"/>
+        <element label="Total" max_length="255" name="total" type="integer"/>
+        <element label="Proposed Effective Date" max_length="255" name="proposed_effective_date" type="glide_date"/>
+        <element label="Certified Skilled" max_length="255" name="certified_skilled1" type="integer"/>
+        <element label="Residential/Other" max_length="255" name="residential_other" type="integer"/>
+        <element label="Volume Beds/Patients/Inmates" max_length="255" name="volume_beds_patients_inmates" type="integer"/>
+        <element label="Lab Client#" max_length="40" name="lab_client" type="string"/>
+        <element label="Main Fax Number" max_length="40" name="main_fax_number" type="string"/>
+        <element label="Seacost ID" max_length="40" name="seacost_id" type="string"/>
+        <element label="Lab Territory" max_length="40" name="lab_territory" type="string"/>
+        <element label="Assisted Living" max_length="40" name="assisted_living" type="string"/>
+        <element label="Primary Client Contact" max_length="40" name="primary_client_contact" type="string"/>
+        <element label="Schryver Telcor ID" max_length="40" name="schryver_telcor_id" type="string"/>
+        <element label="Client State" max_length="40" name="client_state" type="string"/>
+        <element label="Client Mailing Address" max_length="500" name="client_mailing_address" type="string"/>
+        <element label="Imaging Cost Center" max_length="255" name="image_cost_center" type="integer"/>
+        <element label="Trident Telcor ID" max_length="255" name="trident_telcor_id" type="integer"/>
+        <element label="Main Telephone Number" max_length="40" name="main_telephone_number" type="string"/>
+        <element label="Imaging Dispatch Area" max_length="40" name="imaging_dispatch_area" type="string"/>
+        <element label="Laboratory Cost Center" max_length="40" name="laboratory_cost_center" type="string"/>
+        <element label="Client Street Address" max_length="500" name="client_street_address" type="string"/>
+        <element label="Client City" max_length="40" name="client_city" type="string"/>
+        <element label="Client GMC" max_length="32" name="client_gmc" reference="x_1812780_globalch_gmc" type="reference"/>
+        <element choice="1" label="Is Client acting as an Insurance Payer" max_length="40" name="is_client_acting_as_an_insurance_payer" type="choice">
+            <choice/>
+        </element>
+        <element label="Client Country" max_length="40" name="client_country" type="string"/>
+        <element label="Client Zip" max_length="255" name="client_zip" type="integer"/>
+        <element label="Highest Contract Approval Level" max_length="40" name="highest_contract_approval_level" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice/>
+        </element>
+        <element label="Person Completing Form" max_length="40" name="person_completing_form" type="string"/>
+        <element label="Vascular Access" max_length="255" name="vascular_access" type="boolean"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="Ultrasound" max_length="255" name="ultrasound" type="boolean"/>
+        <element label="PACC Reason" max_length="40" name="pacc_reason" type="string"/>
+        <element label="Initial Assigned to" max_length="40" name="initial_assigned_to" type="string"/>
+        <element label="Additional Services" max_length="255" name="additional_services" type="boolean"/>
+        <element label="Client Description" max_length="40" name="client_description" type="string"/>
+        <element label="X-Ray" max_length="255" name="x_ray" type="boolean"/>
+        <element label="EKG" max_length="255" name="ekg" type="boolean"/>
+        <element label="Laboratory" max_length="255" name="laboratory" type="boolean"/>
+        <element label="Client Name" max_length="32" name="client_name" reference="x_1812780_globalch_care_account" type="reference"/>
+        <element label="Oxygen" max_length="255" name="oxygen" type="boolean"/>
+        <element label="US Market Density" max_length="255" name="us_market_density" type="integer"/>
+        <element label="Client Billing Code" max_length="40" name="client_billing_code" type="string"/>
+        <element choice="1" label="Is this related to CHOW?" max_length="40" name="is_this_related_to_chow" type="choice">
+            <choice/>
+        </element>
+        <element label="Lab Market Density" max_length="255" name="lab_market_density" type="integer"/>
+        <element label="PACC Client Name" max_length="40" name="pacc_client_name" type="string"/>
+        <element label="Date Completed" max_length="255" name="date_completed" type="glide_date"/>
+        <element label="Enterprise Client ID" max_length="40" name="enterprise_client_id" type="string"/>
+        <element label="X-Ray Market Density" max_length="255" name="x_ray_market_density" type="integer"/>
+        <element label="POS Code" max_length="40" name="pos_code" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Type of Corp" max_length="40" name="type_of_corp" type="string"/>
+        <element label="Watchlist" max_length="1024" name="watchlist" reference="sys_user" type="glide_list"/>
+        <element choice="1" label="JCAHO Accredited" max_length="40" name="jcaho_accredited" type="choice">
+            <choice/>
+        </element>
+        <element label="Nation/Region Salesperson" max_length="40" name="nation_region_salesperson" type="string"/>
+        <element label="Certified Skilled" max_length="40" name="certified_skilled" type="string"/>
+        <index name="index">
+            <element name="client_gmc"/>
+        </index>
+        <index name="index2">
+            <element name="client_name"/>
+        </index>
+    </element>
+</database>

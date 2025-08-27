@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="120 Days Review Check List" section_id="e76574be93a7a210a020ba7efaba10e9" sys_domain="global" table="x_1812780_globalch_billing_issue" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>0</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-27 13:26:30</sys_created_on>
+            <sys_id>3765b4be93a7a210a020ba7efaba106f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="120 Days Review Check List" display_value="120 Days Review Check List" name="x_1812780_globalch_billing_issue" sys_domain="global" view="Default view">e76574be93a7a210a020ba7efaba10e9</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-27 13:26:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-27 13:26:30</sys_created_on>
+            <sys_id>bb65b4be93a7a210a020ba7efaba106f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="120 Days Review Check List" display_value="120 Days Review Check List" name="x_1812780_globalch_billing_issue" sys_domain="global" view="Default view">e76574be93a7a210a020ba7efaba10e9</sys_ui_section>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-27 13:26:30</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>120 Days Review Check List</caption>
+            <header>false</header>
+            <name>x_1812780_globalch_billing_issue</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-27 13:26:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76574be93a7a210a020ba7efaba10e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1812780_globalch_billing_issue</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+            <sys_update_name>sys_ui_section_e76574be93a7a210a020ba7efaba10e9</sys_update_name>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-27 13:26:29</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</application>
+        <file_path/>
+        <instance_id>05da8226ebd82adc5a2dfceacad0cd0a</instance_id>
+        <instance_name>dev301146</instance_name>
+        <name>sys_ui_section_e76574be93a7a210a020ba7efaba10e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="120 Days Review Check List" section_id="e76574be93a7a210a020ba7efaba10e9" sys_domain="global" table="x_1812780_globalch_billing_issue" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_created_by</element><position>0</position><sys_created_by>Ankur.Pal</sys_created_by><sys_created_on>2025-08-27 13:26:30</sys_created_on><sys_id>3765b4be93a7a210a020ba7efaba106f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="120 Days Review Check List" display_value="120 Days Review Check List" name="x_1812780_globalch_billing_issue" sys_domain="global" view="Default view">e76574be93a7a210a020ba7efaba10e9</sys_ui_section><sys_updated_by>Ankur.Pal</sys_updated_by><sys_updated_on>2025-08-27 13:26:30</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>Ankur.Pal</sys_created_by><sys_created_on>2025-08-27 13:26:30</sys_created_on><sys_id>bb65b4be93a7a210a020ba7efaba106f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="120 Days Review Check List" display_value="120 Days Review Check List" name="x_1812780_globalch_billing_issue" sys_domain="global" view="Default view">e76574be93a7a210a020ba7efaba10e9</sys_ui_section><sys_updated_by>Ankur.Pal</sys_updated_by><sys_updated_on>2025-08-27 13:26:30</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>120 Days Review Check List</caption><header>false</header><name>x_1812780_globalch_billing_issue</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>Ankur.Pal</sys_created_by><sys_created_on>2025-08-27 13:26:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e76574be93a7a210a020ba7efaba10e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1812780_globalch_billing_issue</sys_name><sys_overrides/><sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package><sys_policy/><sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope><sys_update_name>sys_ui_section_e76574be93a7a210a020ba7efaba10e9</sys_update_name><sys_updated_by>Ankur.Pal</sys_updated_by><sys_updated_on>2025-08-27 13:26:29</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>90093279</payload_hash>
+        <record_name>Billing Issue</record_name>
+        <reverted_from/>
+        <source>03777a5e93e72210a020ba7efaba10da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-27 13:26:31</sys_created_on>
+        <sys_id>4875b4be93a7a210a020ba7efaba1071</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198ebb566dc0000001</sys_recorded_at>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-27 13:26:31</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>ff65b4bea7a7a21023568ece349cba70</update_guid>
+        <update_guid_history>ff65b4bea7a7a21023568ece349cba70:90093279</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-27 13:42:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>05461e826bea4174a58fa8810106c4c4</sys_id>
+        <sys_metadata>e76574be93a7a210a020ba7efaba10e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>120 Days Review Check List</sys_name>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_parent display_value="Billing Issue">924988be93a3a210a020ba7efaba107f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_scope_delete display_value="">101cddaa51ed47378f45073bd1f47ef1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_e76574be93a7a210a020ba7efaba10e9</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_e76574be93a7a210a020ba7efaba10e9">4875b4be93a7a210a020ba7efaba1071</sys_update_version>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-27 13:42:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

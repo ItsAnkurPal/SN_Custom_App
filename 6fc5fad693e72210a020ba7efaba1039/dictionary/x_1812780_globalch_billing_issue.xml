@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="924988be93a3a210a020ba7efaba107f" label="Billing Issue" max_length="40" name="x_1812780_globalch_billing_issue" type="collection">
+        <element label="Phone Number/Ext" max_length="40" name="phone_number_ext" type="string"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Submitter Name" max_length="40" name="submitter_name" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice/>
+        </element>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_1812780_globalch_prescription" type="reference"/>
+        <element choice="1" label="Issue Type" max_length="40" name="issue_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Watchlist" max_length="1024" name="watchlist" reference="sys_user" type="glide_list"/>
+        <element label="Close Issue Type" max_length="40" name="close_issue_type" type="string"/>
+        <element choice="1" label="Close Code" max_length="40" name="close_code" type="choice">
+            <choice/>
+        </element>
+        <element label="Closed(closed at)" max_length="40" name="closed_closed_at" type="string"/>
+        <element choice="1" label="Response" max_length="40" name="response" type="choice">
+            <choice/>
+        </element>
+        <element label="Description" max_length="500" name="description" type="string"/>
+        <element label="Close notes" max_length="40" name="close_notes" type="string"/>
+        <element label="WorkNotes" max_length="255" name="worknotes" type="journal_list"/>
+        <element choice="1" label="Root Cause" max_length="40" name="root_cause" type="choice">
+            <choice/>
+        </element>
+        <element label="Closed by" max_length="40" name="closed_by" type="string"/>
+        <element choice="1" label="Client Satisfaction Impact" max_length="40" name="client_satisfaction_impact" type="choice">
+            <choice/>
+        </element>
+        <element label="Parent" max_length="32" name="parent_tab" reference="x_1812780_globalch_prescription" type="reference"/>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element label="Issue related to" max_length="255" name="issue_related_to" type="integer"/>
+        <element label="Facility ID" max_length="40" name="facility_id" type="string"/>
+        <element label="Extend SLA" max_length="255" name="extend_sla" type="boolean"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="parent"/>
+        </index>
+        <index name="index4">
+            <element name="parent_tab"/>
+        </index>
+    </element>
+</database>

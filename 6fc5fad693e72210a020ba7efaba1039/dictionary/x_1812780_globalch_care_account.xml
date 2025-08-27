@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="3f07fe1e93e72210a020ba7efaba1003" label="Care Account" max_length="40" name="x_1812780_globalch_care_account" type="collection">
-        <element label="Effective/Term Date" max_length="255" name="effective_term_date" type="glide_date_time"/>
+        <element label="Effective/Term Date" max_length="255" name="effective_term_date" type="glide_date"/>
         <element label="Historical Corp Owner" max_length="40" name="historical_corp_owner" type="string"/>
         <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="Lab Status" max_length="40" name="lab_status2" type="choice">
             <choice/>
@@ -40,9 +40,9 @@
                 <element inactive_on_update="false" label="Unable" sequence="1" value="unable"/>
             </choice>
         </element>
-        <element label="Effective Date" max_length="255" name="effective_date_mo" type="glide_date_time"/>
+        <element label="Effective Date" max_length="255" name="effective_date_mo" type="glide_date"/>
         <element label="Current Managing Owner" max_length="40" name="current_managing_owner" type="string"/>
-        <element label="Effective Date" max_length="255" name="effective_date" type="glide_date_time"/>
+        <element label="Effective Date" max_length="255" name="effective_date" type="glide_date"/>
         <element label="Historical Managing Owner" max_length="40" name="historical_managing_owner" type="string"/>
         <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="Vascular Status" max_length="40" name="vascular_status" type="choice">
             <choice>
@@ -64,7 +64,7 @@
         <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="EKG Status" max_length="40" name="ekg_status2" type="choice">
             <choice/>
         </element>
-        <element label="Effective/Term Date" max_length="255" name="effective_term_date_mo" type="glide_date_time"/>
+        <element label="Effective/Term Date" max_length="255" name="effective_term_date_mo" type="glide_date"/>
         <element label="Current Corp Owner" max_length="40" name="current_corp_owner" type="string"/>
         <element label="Lab Market Density" max_length="40" name="u_lab_md" type="integer"/>
         <element label="Comments" max_length="500" name="comments" type="string"/>

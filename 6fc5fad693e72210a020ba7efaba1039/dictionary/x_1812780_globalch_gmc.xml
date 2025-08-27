@@ -13,16 +13,16 @@
         <element attributes="edge_encryption_enabled=true" label="GMC #" max_length="500" name="u_npi2" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Approval" max_length="40" name="u_approval" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
                 <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Direct Bill Method Type" max_length="40" name="u_direct_bill_method" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
                 <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Corporate Owner" max_length="40" name="u_corp_owner" type="string"/>
@@ -31,23 +31,23 @@
         <element attributes="edge_encryption_enabled=true" label="Notes/Comments" max_length="500" name="u_notes_comments" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Billing Method Type" max_length="40" name="u_billing_method" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
-                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="DDF/Enterprise ID" max_length="40" name="u_enterprise_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Billing Format" max_length="40" name="u_billing_format" type="string">
             <choice>
                 <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
-                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Medical Services Provided by Facility" max_length="40" name="u_msp_by_fac" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
                 <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
             </choice>
         </element>
@@ -62,7 +62,15 @@
         </element>
         <element label="Client" max_length="32" name="client" reference="sys_user" type="reference"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="Draft"/>
+                <element inactive_on_update="false" label="Approved" sequence="4" value="Approved"/>
+                <element inactive_on_update="false" label="Review" sequence="1" value="Review"/>
+                <element inactive_on_update="false" label="Close Complete" sequence="5" value="Close_Complete"/>
+                <element inactive_on_update="false" label="Close Incomplete" sequence="6" value="Close Incomplete"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="2" value="Pending_Approval"/>
+                <element inactive_on_update="false" label="On Hold" sequence="3" value="On_Hold"/>
+            </choice>
         </element>
         <element label="Please contact facility for GMC number" max_length="1024" name="please_contact_facility_for_npi_number" type="url"/>
         <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
@@ -74,17 +82,17 @@
         <element label="Contact #" max_length="40" name="u_contact" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Market Sub-Category" max_length="40" name="u_market_sc" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
                 <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Market Segment" max_length="40" name="u_ms" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Market Category" max_length="40" name="u_market_category" type="string">
             <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
                 <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
-                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
             </choice>
         </element>
         <element label="Client Description Approved" max_length="40" name="client_description_approved" type="string"/>

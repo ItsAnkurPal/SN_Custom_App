@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Submit A GMC">4944542a93ef2210a020ba7efaba10d6</cat_item>
+        <cat_item display_value="Patient Verification">550d6f2e9323a210a020ba7efaba1089</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -42,22 +42,22 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>submitted_by</name>
+        <name>formatter3</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>300</order>
+        <order>550</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Submitted by</question_text>
+        <question_text/>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_1812780_globalch_gmc</record_producer_table>
-        <reference>sys_user</reference>
+        <record_producer_table>x_1812780_globalch_patient_verification</record_producer_table>
+        <reference/>
         <reference_qual/>
         <reference_qual_condition/>
         <rich_text/>
@@ -77,20 +77,20 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>Ankur.Pal</sys_created_by>
-        <sys_created_on>2025-08-27 04:06:21</sys_created_on>
-        <sys_id>020572ae93eb6210a020ba7efaba1025</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>Submitted by</sys_name>
+        <sys_created_on>2025-08-27 08:35:32</sys_created_on>
+        <sys_id>6ec277269363a210a020ba7efaba1001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>formatter3</sys_name>
         <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
-        <sys_update_name>item_option_new_020572ae93eb6210a020ba7efaba1025</sys_update_name>
+        <sys_update_name>item_option_new_6ec277269363a210a020ba7efaba1001</sys_update_name>
         <sys_updated_by>Ankur.Pal</sys_updated_by>
-        <sys_updated_on>2025-08-27 08:07:22</sys_updated_on>
+        <sys_updated_on>2025-08-27 08:35:32</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>31</type>
+        <type>20</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=020572ae93eb6210a020ba7efaba1025"/>
-    <fx_price action="delete_multiple" query="id=020572ae93eb6210a020ba7efaba1025"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6ec277269363a210a020ba7efaba1001"/>
+    <fx_price action="delete_multiple" query="id=6ec277269363a210a020ba7efaba1001"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>020572ae93eb6210a020ba7efaba1025</id>
+        <id>6ec277269363a210a020ba7efaba1001</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>Ankur.Pal</sys_created_by>
-        <sys_created_on>2025-08-27 04:06:21</sys_created_on>
-        <sys_id>e63576ae93eb6210a020ba7efaba1038</sys_id>
+        <sys_created_on>2025-08-27 08:35:32</sys_created_on>
+        <sys_id>a9d273669363a210a020ba7efaba1037</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Ankur.Pal</sys_updated_by>
-        <sys_updated_on>2025-08-27 04:06:21</sys_updated_on>
+        <sys_updated_on>2025-08-27 08:35:32</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>020572ae93eb6210a020ba7efaba1025</id>
+        <id>6ec277269363a210a020ba7efaba1001</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>Ankur.Pal</sys_created_by>
-        <sys_created_on>2025-08-27 04:06:21</sys_created_on>
-        <sys_id>aa3576ae93eb6210a020ba7efaba1037</sys_id>
+        <sys_created_on>2025-08-27 08:35:32</sys_created_on>
+        <sys_id>61d273669363a210a020ba7efaba1037</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Ankur.Pal</sys_updated_by>
-        <sys_updated_on>2025-08-27 04:06:21</sys_updated_on>
+        <sys_updated_on>2025-08-27 08:35:32</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

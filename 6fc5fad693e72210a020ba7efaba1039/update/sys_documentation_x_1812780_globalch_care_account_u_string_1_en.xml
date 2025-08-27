@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_string_1" label="Client Account Number" language="en" table="x_1812780_globalch_care_account">
+    <sys_documentation element="u_string_1" label="Client Care Number" language="en" table="x_1812780_globalch_care_account">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_string_1</element>
             <help/>
             <hint/>
-            <label>Client Account Number</label>
+            <label>Client Care Number</label>
             <language>en</language>
             <name>x_1812780_globalch_care_account</name>
-            <plural>Client Account Numbers</plural>
+            <plural>Client Care Numbers</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>Ankur.Pal</sys_created_by>
             <sys_created_on>2025-08-26 09:44:31</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Client Account Number</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Client Care Number</sys_name>
             <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
             <sys_policy/>
             <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
             <sys_update_name>sys_documentation_x_1812780_globalch_care_account_u_string_1_en</sys_update_name>
             <sys_updated_by>Ankur.Pal</sys_updated_by>
-            <sys_updated_on>2025-08-26 09:44:31</sys_updated_on>
+            <sys_updated_on>2025-08-27 07:55:46</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

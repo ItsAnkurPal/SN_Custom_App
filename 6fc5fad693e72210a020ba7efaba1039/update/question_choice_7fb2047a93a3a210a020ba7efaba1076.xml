@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>500</order>
+        <published_ref/>
+        <question display_value="Client Description">95673a62932f6210a020ba7efaba1031</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-27 09:45:03</sys_created_on>
+        <sys_id>7fb2047a93a3a210a020ba7efaba1076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Comprehensive Inpatient Rehab</sys_name>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_update_name>question_choice_7fb2047a93a3a210a020ba7efaba1076</sys_update_name>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-27 09:45:03</sys_updated_on>
+        <text>Comprehensive Inpatient Rehab</text>
+        <value>comprehensive_inpatient_rehab</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=7fb2047a93a3a210a020ba7efaba1076"/>
+</record_update>

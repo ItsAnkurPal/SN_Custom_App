@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Submit A GMC">4944542a93ef2210a020ba7efaba10d6</sc_cat_item>
+        <sc_category display_value="Health, Environment, and Safety">d2f80b5bc611227a0079df82295ab196</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-26 16:32:23</sys_created_on>
+        <sys_id>b866d8ea93ef2210a020ba7efaba1036</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Health, Environment, and Safety.</sys_name>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_update_name>sc_cat_item_category_b866d8ea93ef2210a020ba7efaba1036</sys_update_name>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-26 16:32:23</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</application>
+        <file_path/>
+        <instance_id>05da8226ebd82adc5a2dfceacad0cd0a</instance_id>
+        <instance_name>dev301146</instance_name>
+        <name>sc_cat_item_category_b866d8ea93ef2210a020ba7efaba1036</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Submit A GMC">4944542a93ef2210a020ba7efaba10d6</sc_cat_item><sc_category display_value="Health, Environment, and Safety">d2f80b5bc611227a0079df82295ab196</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>Ankur.Pal</sys_created_by><sys_created_on>2025-08-26 16:32:23</sys_created_on><sys_id>b866d8ea93ef2210a020ba7efaba1036</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Health, Environment, and Safety.</sys_name><sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package><sys_policy/><sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope><sys_update_name>sc_cat_item_category_b866d8ea93ef2210a020ba7efaba1036</sys_update_name><sys_updated_by>Ankur.Pal</sys_updated_by><sys_updated_on>2025-08-26 16:32:23</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1765568401</payload_hash>
+        <record_name>Health, Environment, and Safety.</record_name>
+        <reverted_from/>
+        <source>d521e72e93ef6210a020ba7efaba1081</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-27 07:18:16</sys_created_on>
+        <sys_id>35212b2e93ef6210a020ba7efaba10bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198ea64459c0000001</sys_recorded_at>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-27 07:18:16</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>b5212b2ef7ef6210327602bacdf775be</update_guid>
+        <update_guid_history>b5212b2ef7ef6210327602bacdf775be:-1765568401,b0d71b2e2baf6210accdbe3b9309bf13:427490829,d2f81fae3aaf6210a061276a8b1e6959:0,b1e817ae26af621041ccae38c69bd348:-1765568401,b0d71b2e2baf6210accdbe3b9309bf13:427490829,4e383ea2d62f6210a1ab6ec1bfc377f0:2067472069,b866d8eab3ef22107ef6c566a4e9ad46:-463998791</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Health, Environment, and Safety.">79212b2e93ef6210a020ba7efaba10cc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-27 07:18:16</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>505d487be6314b30ac51953415f9e141</sys_id>
+        <sys_metadata>b866d8ea93ef2210a020ba7efaba1036</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Health, Environment, and Safety.</sys_name>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_scope_delete display_value="">101cddaa51ed47378f45073bd1f47ef1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_b866d8ea93ef2210a020ba7efaba1036</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_b866d8ea93ef2210a020ba7efaba1036">35212b2e93ef6210a020ba7efaba10bf</sys_update_version>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-27 07:18:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

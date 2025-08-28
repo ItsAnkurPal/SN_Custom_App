@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="close_notes" label="Close notes" language="en" table="x_1812780_globalch_billing_issue">
+    <sys_documentation element="coding_verification" label="Coding Verification" language="en" table="x_1812780_globalch_billing_issue">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>close_notes</element>
+            <element>coding_verification</element>
             <help/>
             <hint/>
-            <label>Close notes</label>
+            <label>Coding Verification</label>
             <language>en</language>
             <name>x_1812780_globalch_billing_issue</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>Ankur.Pal</sys_created_by>
-            <sys_created_on>2025-08-27 13:37:31</sys_created_on>
-            <sys_mod_count>5</sys_mod_count>
-            <sys_name>Close notes</sys_name>
+            <sys_created_on>2025-08-28 04:04:54</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Coding Verification</sys_name>
             <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
             <sys_policy/>
             <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
-            <sys_update_name>sys_documentation_x_1812780_globalch_billing_issue_close_notes_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1812780_globalch_billing_issue_coding_verification_en</sys_update_name>
             <sys_updated_by>Ankur.Pal</sys_updated_by>
-            <sys_updated_on>2025-08-28 04:24:44</sys_updated_on>
+            <sys_updated_on>2025-08-28 04:05:01</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

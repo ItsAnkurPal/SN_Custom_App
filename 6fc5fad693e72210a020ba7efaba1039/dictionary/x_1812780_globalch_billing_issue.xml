@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="924988be93a3a210a020ba7efaba107f" label="Billing Issue" max_length="40" name="x_1812780_globalch_billing_issue" type="collection">
         <element label="Phone Number/Ext" max_length="40" name="phone_number_ext" type="string"/>
+        <element label="Professional" max_length="255" name="professional" type="boolean"/>
+        <element label="Multiple Corp Clients" max_length="600" name="multiple_corp_clients" type="string"/>
+        <element label="SaaS Telcor AR" max_length="40" name="saas_telcor_ar" type="string"/>
+        <element label="Payment Not Applied" max_length="255" name="payment_not_applied" type="boolean"/>
+        <element label="Lab" max_length="255" name="lab" type="boolean"/>
+        <element label="Pricing Not Based on Contract" max_length="255" name="pricing_not_based_on_contract" type="boolean"/>
+        <element label="CMS 1500-Client Bill" max_length="255" name="cms_1500_client_bill" type="boolean"/>
+        <element label="Sales Request" max_length="255" name="sales_request" type="boolean"/>
+        <element label="Invoice Payment Application" max_length="255" name="invoice_payment_application" type="boolean"/>
+        <element label="Transportaion" max_length="255" name="transportaion" type="boolean"/>
+        <element label="DSSI/Electronic Invoice" max_length="255" name="dssi_electronic_invoice" type="boolean"/>
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Contact Phone # or Email" max_length="600" name="contact_phone_or_email" type="string"/>
+        <element label="Multiple Clients" max_length="255" name="multiple_clients" type="boolean"/>
+        <element label="Other" max_length="255" name="other" type="boolean"/>
+        <element label="Coding Verification" max_length="255" name="coding_verification" type="boolean"/>
+        <element label="Move Client Payment" max_length="255" name="move_client_payment" type="boolean"/>
+        <element label="Payment Verification" max_length="255" name="payment_verification" type="boolean"/>
+        <element label="Company" max_length="40" name="company" type="string"/>
+        <element label="Administrator or DON Name" max_length="40" name="administrator_or_don_name" type="string"/>
+        <element label="Fee Schedule Request" max_length="255" name="fee_schedule_request" type="boolean"/>
+        <element label="Locate Check Payment" max_length="255" name="locate_check_payment" type="boolean"/>
+        <element label="Other" max_length="255" name="other_tab" type="boolean"/>
+        <element label="X-Ray" max_length="255" name="x_ray" type="boolean"/>
+        <element label="Enterprise Client ID" max_length="255" name="enterprise_client_id" type="integer"/>
+        <element label="Corp ID" max_length="255" name="corp_id" type="integer"/>
+        <element label="Adjustment Marking" max_length="255" name="adjustment_marking" type="boolean"/>
+        <element label="Multiple Client Name/ID Numbers" max_length="500" name="multiple_client_name_id_numbers" type="string"/>
+        <element label="Vascular" max_length="255" name="vascular" type="boolean"/>
+        <element label="Provider Relations" max_length="255" name="provider_relations" type="boolean"/>
+        <element label="Number of Facilities" max_length="255" name="number_of_facilities" type="integer"/>
+        <element label="Pricing Dispute" max_length="255" name="pricing_dispute" type="boolean"/>
+        <element label="Client Contact Name(s)" max_length="600" name="client_contact_name" type="string"/>
+        <element label="Facility Name" max_length="40" name="facility_name" type="string"/>
+        <element label="Ancillary Fees" max_length="255" name="ancillary_fees" type="boolean"/>
+        <element label="iLab issue - Includes All Companies and Modalities" max_length="255" name="ilab_issue_includes_all_companies_and_modalities" type="boolean"/>
+        <element label="Distribution of Invoice" max_length="255" name="distribution_of_invoice" type="boolean"/>
+        <element label="Cardiac/EKG" max_length="40" name="cardiac_ekg" type="boolean"/>
+        <element label="Corp Name" max_length="500" name="corp_name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Submitter Name" max_length="40" name="submitter_name" type="string"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
@@ -22,7 +60,7 @@
             <choice/>
         </element>
         <element label="Description" max_length="500" name="description" type="string"/>
-        <element label="Close notes" max_length="40" name="close_notes" type="string"/>
+        <element label="Close notes" max_length="500" name="close_notes" type="string"/>
         <element label="WorkNotes" max_length="255" name="worknotes" type="journal_list"/>
         <element choice="1" label="Root Cause" max_length="40" name="root_cause" type="choice">
             <choice/>
@@ -35,7 +73,10 @@
         <element label="Short Description" max_length="40" name="short_description" type="string"/>
         <element label="Issue related to" max_length="255" name="issue_related_to" type="integer"/>
         <element label="Facility ID" max_length="40" name="facility_id" type="string"/>
+        <element label="Ultrasound" max_length="255" name="ultrasound" type="boolean"/>
+        <element label="Set-up" max_length="255" name="set_up" type="boolean"/>
         <element label="Extend SLA" max_length="255" name="extend_sla" type="boolean"/>
+        <element label="Invoice Number" max_length="40" name="invoice_number" type="string"/>
         <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
             <choice/>
         </element>

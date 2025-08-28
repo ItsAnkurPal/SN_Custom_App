@@ -42,8 +42,14 @@
         <element label="Corp Name" max_length="500" name="corp_name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Submitter Name" max_length="40" name="submitter_name" type="string"/>
-        <element choice="1" label="State" max_length="40" name="state" type="choice">
-            <choice/>
+        <element choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Complete" sequence="3" value="Complete"/>
+                <element inactive_on_update="false" label="Canceled" sequence="4" value="Canceled"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="InProgress"/>
+                <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
+                <element inactive_on_update="false" label="On Hold" sequence="2" value="OnHold"/>
+            </choice>
         </element>
         <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element label="Parent" max_length="32" name="parent" reference="x_1812780_globalch_prescription" type="reference"/>

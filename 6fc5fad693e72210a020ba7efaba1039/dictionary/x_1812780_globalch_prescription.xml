@@ -55,8 +55,17 @@
         <element label="Client Country" max_length="40" name="client_country" type="string"/>
         <element label="Client Zip" max_length="255" name="client_zip" type="integer"/>
         <element label="Highest Contract Approval Level" max_length="40" name="highest_contract_approval_level" type="string"/>
-        <element choice="1" label="State" max_length="40" name="state" type="choice">
-            <choice/>
+        <element choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="On Hold" sequence="3" value="On Hold"/>
+                <element inactive_on_update="false" label="Client Onboarding" sequence="4" value="Client Onboarding"/>
+                <element inactive_on_update="false" label="Contract Pending" sequence="5" value="Contract Pending"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="Draft"/>
+                <element inactive_on_update="false" label="Contract Complete" sequence="6" value="Contract Complete"/>
+                <element inactive_on_update="false" label="Review" sequence="1" value="Review"/>
+                <element inactive_on_update="false" label="Pricing Approval" sequence="2" value="Pricing Approval"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="7" value="Cancelled"/>
+            </choice>
         </element>
         <element label="Person Completing Form" max_length="40" name="person_completing_form" type="string"/>
         <element label="Vascular Access" max_length="255" name="vascular_access" type="boolean"/>

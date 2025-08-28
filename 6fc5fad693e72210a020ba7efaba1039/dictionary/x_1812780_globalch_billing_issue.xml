@@ -23,6 +23,8 @@
         <element label="Administrator or DON Name" max_length="40" name="administrator_or_don_name" type="string"/>
         <element label="Fee Schedule Request" max_length="255" name="fee_schedule_request" type="boolean"/>
         <element label="Locate Check Payment" max_length="255" name="locate_check_payment" type="boolean"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Office Phone" max_length="40" name="office_phone" type="string"/>
         <element label="Other" max_length="255" name="other_tab" type="boolean"/>
         <element label="X-Ray" max_length="255" name="x_ray" type="boolean"/>
         <element label="Enterprise Client ID" max_length="255" name="enterprise_client_id" type="integer"/>
@@ -31,6 +33,8 @@
         <element label="Multiple Client Name/ID Numbers" max_length="500" name="multiple_client_name_id_numbers" type="string"/>
         <element label="Vascular" max_length="255" name="vascular" type="boolean"/>
         <element label="Provider Relations" max_length="255" name="provider_relations" type="boolean"/>
+        <element label="ZipCode" max_length="40" name="zipcode" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
         <element label="Number of Facilities" max_length="255" name="number_of_facilities" type="integer"/>
         <element label="Pricing Dispute" max_length="255" name="pricing_dispute" type="boolean"/>
         <element label="Client Contact Name(s)" max_length="600" name="client_contact_name" type="string"/>

@@ -3,7 +3,12 @@
         <element label="Effective/Term Date" max_length="255" name="effective_term_date" type="glide_date"/>
         <element label="Historical Corp Owner" max_length="40" name="historical_corp_owner" type="string"/>
         <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="Lab Status" max_length="40" name="lab_status2" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Current" sequence="0" value="current"/>
+                <element inactive_on_update="false" label="Unable" sequence="1" value="unable"/>
+                <element inactive_on_update="false" label="Future" sequence="2" value="future"/>
+                <element inactive_on_update="false" label="Able" sequence="3" value="able"/>
+            </choice>
         </element>
         <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="EKG Patch Status" max_length="40" name="ekg_patch_status" type="choice">
             <choice>
@@ -14,7 +19,12 @@
             </choice>
         </element>
         <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="Ultrasound Status" max_length="40" name="ultrasound_status2" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Current" sequence="0" value="current"/>
+                <element inactive_on_update="false" label="Unable" sequence="1" value="unable"/>
+                <element inactive_on_update="false" label="Future" sequence="2" value="future"/>
+                <element inactive_on_update="false" label="Able" sequence="3" value="able"/>
+            </choice>
         </element>
         <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="EKG Status" max_length="40" name="ekg_status" type="choice">
             <choice>
@@ -53,16 +63,36 @@
             </choice>
         </element>
         <element choice="3" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="EKG Patch Status" max_length="40" name="ekg_patch_status2" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Current" sequence="0" value="current"/>
+                <element inactive_on_update="false" label="Unable" sequence="1" value="unable"/>
+                <element inactive_on_update="false" label="Future" sequence="2" value="future"/>
+                <element inactive_on_update="false" label="Able" sequence="3" value="able"/>
+            </choice>
         </element>
         <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="X-Ray Status" max_length="40" name="x_ray_status" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Current" sequence="0" value="current"/>
+                <element inactive_on_update="false" label="Unable" sequence="1" value="unable"/>
+                <element inactive_on_update="false" label="Future" sequence="2" value="future"/>
+                <element inactive_on_update="false" label="Able" sequence="3" value="able"/>
+            </choice>
         </element>
         <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="Vascular Status" max_length="40" name="vascular_status2" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Current" sequence="0" value="current"/>
+                <element inactive_on_update="false" label="Unable" sequence="1" value="unable"/>
+                <element inactive_on_update="false" label="Future" sequence="2" value="future"/>
+                <element inactive_on_update="false" label="Able" sequence="3" value="able"/>
+            </choice>
         </element>
         <element choice="1" choice_field="u_xray_status" choice_table="x_1812780_globalch_care_account" label="EKG Status" max_length="40" name="ekg_status2" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Current" sequence="0" value="current"/>
+                <element inactive_on_update="false" label="Unable" sequence="1" value="unable"/>
+                <element inactive_on_update="false" label="Future" sequence="2" value="future"/>
+                <element inactive_on_update="false" label="Able" sequence="3" value="able"/>
+            </choice>
         </element>
         <element label="Effective/Term Date" max_length="255" name="effective_term_date_mo" type="glide_date"/>
         <element label="Current Corp Owner" max_length="40" name="current_corp_owner" type="string"/>
@@ -70,7 +100,7 @@
         <element label="Comments" max_length="500" name="comments" type="string"/>
         <element label="Office Phone" max_length="40" name="u_office_phone" type="integer"/>
         <element attributes="encode_utf8=false" label="Assigned Rep" max_length="32" name="u_assigned_rep" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Client Care Number" max_length="40" name="u_string_1" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" label="Client Care Number" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="u_country" type="string"/>
         <element label="Work Notes" max_length="255" name="work_notes" type="journal_input"/>
         <element label="Audit" max_length="255" name="audit" type="boolean"/>
@@ -138,11 +168,16 @@
         <element label="OnPrem Telcor ID" max_length="255" name="onprem_telcor_id" type="integer"/>
         <element label="Client Biller Name (SaaS)" max_length="40" name="client_biller_name" type="string"/>
         <element label="Client Biller Name (On Prem)" max_length="40" name="client_biller_name_on_prem" type="string"/>
+        <element label="Patient Name" max_length="32" name="patient_name" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Client Care Number" max_length="40" name="number" type="string"/>
         <element attributes="encode_utf8=false" label="Client Name" max_length="32" name="client_name" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="client_name"/>
         </index>
         <index name="index2">
+            <element name="patient_name"/>
+        </index>
+        <index name="index3">
             <element name="u_assigned_rep"/>
         </index>
     </element>

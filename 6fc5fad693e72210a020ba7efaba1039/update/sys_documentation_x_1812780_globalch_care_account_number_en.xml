@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="number" label="Client Care Number" language="en" table="x_1812780_globalch_care_account">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <help/>
+            <hint/>
+            <label>Client Care Number</label>
+            <language>en</language>
+            <name>x_1812780_globalch_care_account</name>
+            <plural>Client Care Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Ankur.Pal</sys_created_by>
+            <sys_created_on>2025-08-28 10:31:47</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Client Care Number</sys_name>
+            <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+            <sys_update_name>sys_documentation_x_1812780_globalch_care_account_number_en</sys_update_name>
+            <sys_updated_by>Ankur.Pal</sys_updated_by>
+            <sys_updated_on>2025-08-28 10:32:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1812780_globalch_care_account">x_1812780_globalch_care_account</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CCN</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-28 10:31:46</sys_created_on>
+        <sys_id>0e07d1cb936fe210a020ba7efaba106b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CCN</sys_name>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_update_name>sys_number_0e07d1cb936fe210a020ba7efaba106b</sys_update_name>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-28 10:31:46</sys_updated_on>
+    </sys_number>
+</record_update>

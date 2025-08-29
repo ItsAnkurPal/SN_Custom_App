@@ -9,6 +9,6 @@
         <element label="Address" max_length="500" name="address" type="string"/>
         <element label="Contact Number" max_length="255" name="contact_number" type="integer"/>
         <element label="Contact Email" max_length="255" name="contact_email" type="string_full_utf8"/>
-        <element label="Name of the Client" max_length="40" name="name_of_the_client" type="string"/>
+        <element display="true" label="Name of the Client" max_length="40" name="name_of_the_client" reference="sys_user" type="reference"/>
     </element>
 </database>

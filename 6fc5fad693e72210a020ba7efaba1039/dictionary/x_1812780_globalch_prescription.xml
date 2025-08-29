@@ -55,7 +55,7 @@
         <element label="Client Country" max_length="40" name="client_country" type="string"/>
         <element label="Client Zip" max_length="255" name="client_zip" type="integer"/>
         <element label="Highest Contract Approval Level" max_length="40" name="highest_contract_approval_level" type="string"/>
-        <element choice="3" label="State" max_length="40" name="state" type="choice">
+        <element choice="3" default="Draft" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="On Hold" sequence="3" value="On Hold"/>
                 <element inactive_on_update="false" label="Client Onboarding" sequence="4" value="Client Onboarding"/>

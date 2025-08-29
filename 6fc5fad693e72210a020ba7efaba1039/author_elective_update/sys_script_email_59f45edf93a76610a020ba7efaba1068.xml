@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="DELETE">
+        <name>Patient_Verification</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+    var baseURL = gs.getProperty("glide.servlet.uri");
+    var formUrl = baseURL + "sp?id=sc_cat_item&sys_id=550d6f2e9323a210a020ba7efaba1089";
+
+    email.setFrom("gmc.helpdesk@hospitality.com");
+    email.setSubject("]]>🏥<![CDATA[ Your Admission Has Been Registered at Global Health");
+
+    template.print(`
+    <div style="background-color: #f6f9fc; padding: 40px 20px; font-family: 'Segoe UI', Arial, sans-serif; color: #333;">
+
+        <!-- Card Container -->
+        <div style="max-width: 600px; margin: auto; background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); overflow: hidden;">
+
+            <!-- Header Section -->
+            <div style="background-color: #004aad; color: #ffffff; padding: 20px 30px;">
+                <h2 style="margin: 0; font-size: 22px;">Admission Registered Successfully</h2>
+                <p style="margin: 5px 0 0 0; font-size: 14px;">Global Cure Health – Patient Admissions</p>
+            </div>
+
+            <!-- Body -->
+            <div style="padding: 30px;">
+
+                <p style="font-size: 16px;">Dear <strong>${current.patient_name.getDisplayValue()}</strong>,</p>
+
+                <p>We are pleased to inform you that your admission has been successfully registered at <strong>Global Cure Health</strong>.</p>
+
+                <!-- Patient Info Table -->
+                <table style="width: 100%; margin: 20px 0; border-collapse: collapse;">
+                    <tr>
+                        <td style="padding: 10px; background-color: #f0f0f0; border: 1px solid #ccc;"><strong>Patient Name</strong></td>
+                        <td style="padding: 10px; border: 1px solid #ccc;">${current.patient_name.getDisplayValue()}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; background-color: #f0f0f0; border: 1px solid #ccc;"><strong>Care Account Number</strong></td>
+                        <td style="padding: 10px; border: 1px solid #ccc;">${current.number}</td>
+                    </tr>
+                </table>
+
+                <p>To proceed with your onboarding and medical clearance, please complete the following step:</p>
+
+                <!-- Call to Action -->
+                <div style="text-align: center; margin: 30px 0;">
+                    <a href="${formUrl}" target="_blank" style="
+                        background-color: #28a745;
+                        color: #ffffff;
+                        padding: 14px 28px;
+                        font-size: 16px;
+                        text-decoration: none;
+                        border-radius: 5px;
+                        display: inline-block;">
+                        ]]>📝<![CDATA[ Complete GMC Medical Form
+                    </a>
+                </div>
+
+                <p>If you have already submitted your GMC form, no further action is required at this time.</p>
+
+                <p>Should you have any questions or require assistance, our admissions team is available to help you 24/7.</p>
+            </div>
+
+            <!-- Footer -->
+            <div style="background-color: #f0f4f8; padding: 20px 30px; font-size: 13px; color: #666; text-align: center;">
+                <p style="margin: 0;">]]>📍<![CDATA[ Global Cure Health, 123 Health St., Wellness City</p>
+                <p style="margin: 5px 0;">]]>📞<![CDATA[ +1 (800) 123-4567 &nbsp; | &nbsp; ]]>📧<![CDATA[ gmc.helpdesk@hospitality.com</p>
+                <p style="margin: 5px 0;">&copy; ${new Date().getFullYear()} Global Cure Health. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+    `);
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-29 09:43:46</sys_created_on>
+        <sys_id>59f45edf93a76610a020ba7efaba1068</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Patient_Verification</sys_name>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_update_name>sys_script_email_59f45edf93a76610a020ba7efaba1068</sys_update_name>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-29 09:45:42</sys_updated_on>
+    </sys_script_email>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</application>
+        <file_path/>
+        <instance_id>05da8226ebd82adc5a2dfceacad0cd0a</instance_id>
+        <instance_name>dev301146</instance_name>
+        <name>sys_script_email_59f45edf93a76610a020ba7efaba1068</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_email"&gt;&lt;sys_script_email action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Patient_Verification&lt;/name&gt;&lt;new_lines_to_html&gt;false&lt;/new_lines_to_html&gt;&lt;script&gt;&lt;![CDATA[(function runMailScript(current, template, email, email_action, event) {
+    var baseURL = gs.getProperty("glide.servlet.uri");
+    var formUrl = baseURL + "sp?id=sc_cat_item&amp;sys_id=550d6f2e9323a210a020ba7efaba1089";
+
+    email.setFrom("gmc.helpdesk@hospitality.com");
+    email.setSubject("]]&gt;🏥&lt;![CDATA[ Your Admission Has Been Registered at Global Health");
+
+    template.print(`
+    &lt;div style="background-color: #f6f9fc; padding: 40px 20px; font-family: 'Segoe UI', Arial, sans-serif; color: #333;"&gt;
+
+        &lt;!-- Card Container --&gt;
+        &lt;div style="max-width: 600px; margin: auto; background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); overflow: hidden;"&gt;
+
+            &lt;!-- Header Section --&gt;
+            &lt;div style="background-color: #004aad; color: #ffffff; padding: 20px 30px;"&gt;
+                &lt;h2 style="margin: 0; font-size: 22px;"&gt;Admission Registered Successfully&lt;/h2&gt;
+                &lt;p style="margin: 5px 0 0 0; font-size: 14px;"&gt;Global Cure Health – Patient Admissions&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;!-- Body --&gt;
+            &lt;div style="padding: 30px;"&gt;
+
+                &lt;p style="font-size: 16px;"&gt;Dear &lt;strong&gt;${current.patient_name.getDisplayValue()}&lt;/strong&gt;,&lt;/p&gt;
+
+                &lt;p&gt;We are pleased to inform you that your admission has been successfully registered at &lt;strong&gt;Global Cure Health&lt;/strong&gt;.&lt;/p&gt;
+
+                &lt;!-- Patient Info Table --&gt;
+                &lt;table style="width: 100%; margin: 20px 0; border-collapse: collapse;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 10px; background-color: #f0f0f0; border: 1px solid #ccc;"&gt;&lt;strong&gt;Patient Name&lt;/strong&gt;&lt;/td&gt;
+                        &lt;td style="padding: 10px; border: 1px solid #ccc;"&gt;${current.patient_name.getDisplayValue()}&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 10px; background-color: #f0f0f0; border: 1px solid #ccc;"&gt;&lt;strong&gt;Care Account Number&lt;/strong&gt;&lt;/td&gt;
+                        &lt;td style="padding: 10px; border: 1px solid #ccc;"&gt;${current.number}&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+
+                &lt;p&gt;To proceed with your onboarding and medical clearance, please complete the following step:&lt;/p&gt;
+
+                &lt;!-- Call to Action --&gt;
+                &lt;div style="text-align: center; margin: 30px 0;"&gt;
+                    &lt;a href="${formUrl}" target="_blank" style="
+                        background-color: #28a745;
+                        color: #ffffff;
+                        padding: 14px 28px;
+                        font-size: 16px;
+                        text-decoration: none;
+                        border-radius: 5px;
+                        display: inline-block;"&gt;
+                        ]]&gt;📝&lt;![CDATA[ Complete GMC Medical Form
+                    &lt;/a&gt;
+                &lt;/div&gt;
+
+                &lt;p&gt;If you have already submitted your GMC form, no further action is required at this time.&lt;/p&gt;
+
+                &lt;p&gt;Should you have any questions or require assistance, our admissions team is available to help you 24/7.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;!-- Footer --&gt;
+            &lt;div style="background-color: #f0f4f8; padding: 20px 30px; font-size: 13px; color: #666; text-align: center;"&gt;
+                &lt;p style="margin: 0;"&gt;]]&gt;📍&lt;![CDATA[ Global Cure Health, 123 Health St., Wellness City&lt;/p&gt;
+                &lt;p style="margin: 5px 0;"&gt;]]&gt;📞&lt;![CDATA[ +1 (800) 123-4567 &amp;nbsp; | &amp;nbsp; ]]&gt;📧&lt;![CDATA[ gmc.helpdesk@hospitality.com&lt;/p&gt;
+                &lt;p style="margin: 5px 0;"&gt;&amp;copy; ${new Date().getFullYear()} Global Cure Health. All rights reserved.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    `);
+})(current, template, email, email_action, event);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_email&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Ankur.Pal&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-29 09:43:46&lt;/sys_created_on&gt;&lt;sys_id&gt;59f45edf93a76610a020ba7efaba1068&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Patient_Verification&lt;/sys_name&gt;&lt;sys_package display_value="Global Cure Health " source="x_1812780_globalch"&gt;6fc5fad693e72210a020ba7efaba1039&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global Cure Health "&gt;6fc5fad693e72210a020ba7efaba1039&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_email_59f45edf93a76610a020ba7efaba1068&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Ankur.Pal&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-29 09:45:42&lt;/sys_updated_on&gt;&lt;/sys_script_email&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-188091586</payload_hash>
+        <record_name>Patient_Verification</record_name>
+        <reverted_from/>
+        <source>03777a5e93e72210a020ba7efaba10da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-29 09:45:42</sys_created_on>
+        <sys_id>0d16165393e76610a020ba7efaba1060</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198f537f8c20000001</sys_recorded_at>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-29 09:45:42</sys_updated_on>
+        <type>Email Script</type>
+        <update_guid>811616530be7661036745bc80ba32960</update_guid>
+        <update_guid_history>811616530be7661036745bc80ba32960:-188091586,70a55a1f26676610b3a7985416ee1e8e:-1222830489</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-29 09:50:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_email">sys_script_email</sys_db_object>
+        <sys_id>54ec1cebc748454888cef664bb056304</sys_id>
+        <sys_metadata>59f45edf93a76610a020ba7efaba1068</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient_Verification</sys_name>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_scope_delete display_value="">101cddaa51ed47378f45073bd1f47ef1</sys_scope_delete>
+        <sys_update_name>sys_script_email_59f45edf93a76610a020ba7efaba1068</sys_update_name>
+        <sys_update_version display_value="sys_script_email_59f45edf93a76610a020ba7efaba1068">0d16165393e76610a020ba7efaba1060</sys_update_version>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-29 09:50:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

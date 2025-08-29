@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_1812780_globalch_billing_issue</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 14pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img style="display: block; margin-left: auto; margin-right: auto;" title="Global Health" src="/sys_attachment.do?sys_id=587d459f93236610a020ba7efaba1033" alt="" width="239" height="173" data-library="false"></span></p>
+<p>&nbsp;</p>
+<table style="border-collapse: collapse; width: 100.041%; margin-left: auto; margin-right: auto;" border="1"><colgroup><col style="width: 49.9891%;"><col style="width: 49.9891%;"></colgroup>
+<tbody>
+<tr style="text-align: center;">
+<td style="text-align: center;"><strong><span style="font-size: 14pt;">Your Name&nbsp;</span></strong></td>
+<td style="text-align: center;"><span style="font-size: 14pt;">&nbsp;${submitter_name}</span></td>
+</tr>
+<tr style="text-align: center;">
+<td style="text-align: center;"><strong><span style="font-size: 14pt;">State</span></strong></td>
+<td style="text-align: center;"><span style="font-size: 14pt;">${state}</span></td>
+</tr>
+<tr style="text-align: center;">
+<td style="text-align: center;"><strong><span style="font-size: 14pt;">Issue</span></strong></td>
+<td style="text-align: center;"><span style="font-size: 14pt;">&nbsp;${short_description}</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><span style="font-size: 14pt;">Billing Number </span></strong></td>
+<td style="text-align: center;"><span style="font-size: 14pt;">${number}</span></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><span style="font-size: 14pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>&nbsp;<span style="color: rgb(224, 62, 45);">Your Health. Our Mission. Seamlessly Delivered!!&nbsp;</span></strong></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; color: rgb(224, 62, 45);"><strong>Thank You</strong></span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Billing_State_Template</name>
+        <sms_alternate/>
+        <subject>Billing Issue has been Registered with ${number}  and ${assigned_to} Is working on it .</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-29 04:34:53</sys_created_on>
+        <sys_id>4b5c09df93236610a020ba7efaba103d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Billing_State_Template</sys_name>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_update_name>sysevent_email_template_4b5c09df93236610a020ba7efaba103d</sys_update_name>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-29 08:16:04</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

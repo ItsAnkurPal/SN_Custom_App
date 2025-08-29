@@ -5,13 +5,13 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>State</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>Draft</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
         <sys_update_name>sys_dictionary_x_1812780_globalch_gmc_state</sys_update_name>
         <sys_updated_by>Ankur.Pal</sys_updated_by>
-        <sys_updated_on>2025-08-26 11:56:08</sys_updated_on>
+        <sys_updated_on>2025-08-29 07:14:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

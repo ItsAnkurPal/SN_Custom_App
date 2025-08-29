@@ -45,8 +45,8 @@
         <element label="Cardiac/EKG" max_length="40" name="cardiac_ekg" type="boolean"/>
         <element label="Corp Name" max_length="500" name="corp_name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Submitter Name" max_length="40" name="submitter_name" type="string"/>
-        <element choice="3" label="State" max_length="40" name="state" type="choice">
+        <element label="Submitter Name" max_length="40" name="submitter_name" reference="sys_user" type="reference"/>
+        <element choice="3" default="Open" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Complete" sequence="3" value="Complete"/>
                 <element inactive_on_update="false" label="Canceled" sequence="4" value="Canceled"/>
@@ -83,6 +83,7 @@
         <element label="Short Description" max_length="40" name="short_description" type="string"/>
         <element label="Issue related to" max_length="255" name="issue_related_to" type="integer"/>
         <element label="Facility ID" max_length="40" name="facility_id" type="string"/>
+        <element label="Internal Issue" max_length="255" name="internal_issue" type="boolean"/>
         <element label="Ultrasound" max_length="255" name="ultrasound" type="boolean"/>
         <element label="Set-up" max_length="255" name="set_up" type="boolean"/>
         <element label="Extend SLA" max_length="255" name="extend_sla" type="boolean"/>

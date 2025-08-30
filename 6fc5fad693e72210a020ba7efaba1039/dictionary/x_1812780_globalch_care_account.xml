@@ -170,6 +170,12 @@
         <element label="Client Biller Name (On Prem)" max_length="40" name="client_biller_name_on_prem" type="string"/>
         <element label="Patient Name" max_length="32" name="patient_name" reference="sys_user" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Client Care Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Client Status" max_length="40" name="client_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Inactive" sequence="1" value="Inactive"/>
+                <element inactive_on_update="false" label="Active" sequence="0" value="Active"/>
+            </choice>
+        </element>
         <element attributes="encode_utf8=false" label="Client Name" max_length="32" name="client_name" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="client_name"/>

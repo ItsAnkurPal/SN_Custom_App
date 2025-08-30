@@ -5,6 +5,7 @@
         <element label="Review Code" max_length="40" name="review_code" type="string"/>
         <element label="Taxonomy URL" max_length="1024" name="taxonomy_url" type="url"/>
         <element label="Review Notes" max_length="400" name="review_notes" type="string"/>
+        <element default="False" label="RP" max_length="255" name="rp" type="boolean"/>
         <element choice="1" label="Does Client request EMR Integration" max_length="40" name="does_client_request_emr_integratio0" type="choice">
             <choice/>
         </element>

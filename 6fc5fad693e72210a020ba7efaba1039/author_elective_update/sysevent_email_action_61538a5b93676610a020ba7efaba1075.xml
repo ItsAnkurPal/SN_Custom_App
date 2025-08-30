@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1812780_globalch_gmc</collection>
+        <condition table="x_1812780_globalch_gmc">stateCHANGESTOReview^ORstateCHANGESTOPending_Approval^ORstateCHANGESTOOn_Hold^ORstateCHANGESTOApproved^ORstateCHANGESTOClose_Complete^ORstateCHANGESTOClose Incomplete^ORstate=Draft^EQ<item display_value="Review" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="Review"/>
+            <item display_value="Pending Approval" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="Pending_Approval"/>
+            <item display_value="On Hold" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="On_Hold"/>
+            <item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="Approved"/>
+            <item display_value="Close Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="Close_Complete"/>
+            <item display_value="Close Incomplete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="Close Incomplete"/>
+            <item display_value="Draft" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="Draft"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><img style="display: block; margin-left: auto; margin-right: auto;" title="Global Health" src="GlobalHealth.pngx" alt="" width="361" height="261" data-library="true"></p>
+<p style="text-align: center;"><strong><span style="font-size: 14pt; color: rgb(224, 62, 45);">Your Health. Our Mission. Seamlessly Delivered!!&nbsp;</span></strong></p>
+<p style="text-align: center;"><span style="color: rgb(0, 0, 0);"><strong><span style="font-size: 14pt;">Hi, ${patient_name}</span></strong></span></p>
+<table style="border-collapse: collapse; width: 100.019%;" border="1"><colgroup><col style="width: 50%;"><col style="width: 50%;"></colgroup>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong><span style="font-size: 12pt;">GMC Number</span></strong></td>
+<td style="text-align: center;"><strong><span style="font-size: 14pt;">${number}</span></strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><span style="font-size: 12pt;">Patient Name</span></strong></td>
+<td style="text-align: center;"><strong><span style="font-size: 14pt;">&nbsp;${patient_name}</span></strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><span style="font-size: 12pt;">Contact Number</span></strong></td>
+<td style="text-align: center;"><strong><span style="font-size: 14pt;">${u_contact}</span></strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><span style="font-size: 12pt;">State</span></strong></td>
+<td style="text-align: center;"><strong><span style="font-size: 14pt;">&nbsp;${state}</span></strong></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><span style="font-size: 14pt; color: rgb(224, 62, 45);">Thank You</span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; color: rgb(224, 62, 45);">For More Queries Contact US:gmc.helpdesk@hospitality.com</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>GMC_Each_State_Notify</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>patient_name,assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number} Has been Updated to ${state}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-29 08:32:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>61538a5b93676610a020ba7efaba1075</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>GMC_Each_State_Notify</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_update_name>sysevent_email_action_61538a5b93676610a020ba7efaba1075</sys_update_name>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-29 10:12:08</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</application>
+        <file_path/>
+        <instance_id>05da8226ebd82adc5a2dfceacad0cd0a</instance_id>
+        <instance_name>dev301146</instance_name>
+        <name>sysevent_email_action_61538a5b93676610a020ba7efaba1075</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_1812780_globalch_gmc&lt;/collection&gt;&lt;condition table="x_1812780_globalch_gmc"&gt;stateCHANGESTOReview^ORstateCHANGESTOPending_Approval^ORstateCHANGESTOOn_Hold^ORstateCHANGESTOApproved^ORstateCHANGESTOClose_Complete^ORstateCHANGESTOClose Incomplete^ORstate=Draft^EQ&lt;item display_value="Review" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="Review"/&gt;&lt;item display_value="Pending Approval" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="Pending_Approval"/&gt;&lt;item display_value="On Hold" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="On_Hold"/&gt;&lt;item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="Approved"/&gt;&lt;item display_value="Close Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="Close_Complete"/&gt;&lt;item display_value="Close Incomplete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="Close Incomplete"/&gt;&lt;item display_value="Draft" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="Draft"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;&lt;img style="display: block; margin-left: auto; margin-right: auto;" title="Global Health" src="GlobalHealth.pngx" alt="" width="361" height="261" data-library="true"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 14pt; color: rgb(224, 62, 45);"&gt;Your Health. Our Mission. Seamlessly Delivered!!&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;span style="color: rgb(0, 0, 0);"&gt;&lt;strong&gt;&lt;span style="font-size: 14pt;"&gt;Hi, ${patient_name}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;table style="border-collapse: collapse; width: 100.019%;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 50%;"&gt;&lt;col style="width: 50%;"&gt;&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;GMC Number&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 14pt;"&gt;${number}&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;Patient Name&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 14pt;"&gt;&amp;nbsp;${patient_name}&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;Contact Number&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 14pt;"&gt;${u_contact}&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;State&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 14pt;"&gt;&amp;nbsp;${state}&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style="text-align: center;"&gt;&lt;span style="font-size: 14pt; color: rgb(224, 62, 45);"&gt;Thank You&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;span style="font-size: 14pt; color: rgb(224, 62, 45);"&gt;For More Queries Contact US:gmc.helpdesk@hospitality.com&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;GMC_Each_State_Notify&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;patient_name,assigned_to&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;${number} Has been Updated to ${state}&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Ankur.Pal&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-29 08:32:54&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;61538a5b93676610a020ba7efaba1075&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;GMC_Each_State_Notify&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global Cure Health " source="x_1812780_globalch"&gt;6fc5fad693e72210a020ba7efaba1039&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global Cure Health "&gt;6fc5fad693e72210a020ba7efaba1039&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_61538a5b93676610a020ba7efaba1075&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Ankur.Pal&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-29 10:12:08&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>837236714</payload_hash>
+        <record_name>GMC_Each_State_Notify</record_name>
+        <reverted_from/>
+        <source>03777a5e93e72210a020ba7efaba10da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-29 10:12:08</sys_created_on>
+        <sys_id>8c2c565393e76610a020ba7efaba1018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198f55029710000001</sys_recorded_at>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-29 10:12:08</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>042c5653c1e766105ee61ddb31d41218</update_guid>
+        <update_guid_history>042c5653c1e766105ee61ddb31d41218:837236714,d5cb529324e76610777fe9cc2261fc3c:933900157,4f4b5ed724e76610cc7849bf14248283:996881081,19da165398e76610b4b1ed1fd0cf8c68:1630251264,e2e5525fc46766107c4bc813d6012087:1332101805,c8e55edf29a766108bf97f25ccfadf0b:1823741085,2a654e1b4267661064534d897da064fe:637194823</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-30 09:28:52</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>864b2d85b6da45acab16e3188287d711</sys_id>
+        <sys_metadata>61538a5b93676610a020ba7efaba1075</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GMC_Each_State_Notify</sys_name>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_parent display_value="GMC">a75d075a936b2210a020ba7efaba1018</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_scope_delete display_value="">101cddaa51ed47378f45073bd1f47ef1</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_61538a5b93676610a020ba7efaba1075</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_61538a5b93676610a020ba7efaba1075">8c2c565393e76610a020ba7efaba1018</sys_update_version>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-30 09:28:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

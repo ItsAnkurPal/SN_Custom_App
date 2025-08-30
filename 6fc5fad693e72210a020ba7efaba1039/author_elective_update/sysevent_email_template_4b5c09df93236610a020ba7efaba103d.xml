@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="DELETE">
+        <collection>x_1812780_globalch_billing_issue</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 14pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img style="display: block; margin-left: auto; margin-right: auto;" title="Global Health" src="/sys_attachment.do?sys_id=587d459f93236610a020ba7efaba1033" alt="" width="239" height="173" data-library="false"></span></p>
+<p>&nbsp;</p>
+<table style="border-collapse: collapse; width: 100.041%; margin-left: auto; margin-right: auto;" border="1"><colgroup><col style="width: 49.9891%;"><col style="width: 49.9891%;"></colgroup>
+<tbody>
+<tr style="text-align: center;">
+<td style="text-align: center;"><strong><span style="font-size: 14pt;">Your Name&nbsp;</span></strong></td>
+<td style="text-align: center;"><span style="font-size: 14pt;">&nbsp;${submitter_name}</span></td>
+</tr>
+<tr style="text-align: center;">
+<td style="text-align: center;"><strong><span style="font-size: 14pt;">State</span></strong></td>
+<td style="text-align: center;"><span style="font-size: 14pt;">${state}</span></td>
+</tr>
+<tr style="text-align: center;">
+<td style="text-align: center;"><strong><span style="font-size: 14pt;">Issue</span></strong></td>
+<td style="text-align: center;"><span style="font-size: 14pt;">&nbsp;${short_description}</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><span style="font-size: 14pt;">Billing Number </span></strong></td>
+<td style="text-align: center;"><span style="font-size: 14pt;">${number}</span></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><span style="font-size: 14pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>&nbsp;<span style="color: rgb(224, 62, 45);">Your Health. Our Mission. Seamlessly Delivered!!&nbsp;</span></strong></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; color: rgb(224, 62, 45);"><strong>Thank You</strong></span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Billing_State_Template</name>
+        <sms_alternate/>
+        <subject>Billing Issue has been Registered with ${number}  and ${assigned_to} Is working on it .</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-29 04:34:53</sys_created_on>
+        <sys_id>4b5c09df93236610a020ba7efaba103d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Billing_State_Template</sys_name>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_update_name>sysevent_email_template_4b5c09df93236610a020ba7efaba103d</sys_update_name>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-29 08:16:04</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</application>
+        <file_path/>
+        <instance_id>05da8226ebd82adc5a2dfceacad0cd0a</instance_id>
+        <instance_name>dev301146</instance_name>
+        <name>sysevent_email_template_4b5c09df93236610a020ba7efaba103d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysevent_email_template"&gt;&lt;sysevent_email_template action="INSERT_OR_UPDATE"&gt;&lt;collection&gt;x_1812780_globalch_billing_issue&lt;/collection&gt;&lt;email_layout/&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img style="display: block; margin-left: auto; margin-right: auto;" title="Global Health" src="/sys_attachment.do?sys_id=587d459f93236610a020ba7efaba1033" alt="" width="239" height="173" data-library="false"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="border-collapse: collapse; width: 100.041%; margin-left: auto; margin-right: auto;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 49.9891%;"&gt;&lt;col style="width: 49.9891%;"&gt;&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr style="text-align: center;"&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 14pt;"&gt;Your Name&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;span style="font-size: 14pt;"&gt;&amp;nbsp;${submitter_name}&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="text-align: center;"&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 14pt;"&gt;State&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;span style="font-size: 14pt;"&gt;${state}&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="text-align: center;"&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 14pt;"&gt;Issue&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;span style="font-size: 14pt;"&gt;&amp;nbsp;${short_description}&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 14pt;"&gt;Billing Number &lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;span style="font-size: 14pt;"&gt;${number}&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style="text-align: center;"&gt;&lt;span style="font-size: 14pt;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;strong&gt;&amp;nbsp;&lt;span style="color: rgb(224, 62, 45);"&gt;Your Health. Our Mission. Seamlessly Delivered!!&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;span style="font-size: 14pt; color: rgb(224, 62, 45);"&gt;&lt;strong&gt;Thank You&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Billing_State_Template&lt;/name&gt;&lt;sms_alternate/&gt;&lt;subject&gt;Billing Issue has been Registered with ${number}  and ${assigned_to} Is working on it .&lt;/subject&gt;&lt;sys_class_name&gt;sysevent_email_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Ankur.Pal&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-29 04:34:53&lt;/sys_created_on&gt;&lt;sys_id&gt;4b5c09df93236610a020ba7efaba103d&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Billing_State_Template&lt;/sys_name&gt;&lt;sys_package display_value="Global Cure Health " source="x_1812780_globalch"&gt;6fc5fad693e72210a020ba7efaba1039&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global Cure Health "&gt;6fc5fad693e72210a020ba7efaba1039&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_template_4b5c09df93236610a020ba7efaba103d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Ankur.Pal&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-29 08:16:04&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;/sysevent_email_template&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1849165873</payload_hash>
+        <record_name>Billing_State_Template</record_name>
+        <reverted_from/>
+        <source>03777a5e93e72210a020ba7efaba10da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-29 08:16:04</sys_created_on>
+        <sys_id>4891421b93276610a020ba7efaba1014</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198f4e5e7ad0000001</sys_recorded_at>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-29 08:16:04</sys_updated_on>
+        <type>Email Template</type>
+        <update_guid>cc91421b44276610b58f1aaa1bf9ce13</update_guid>
+        <update_guid_history>cc91421b44276610b58f1aaa1bf9ce13:1849165873,e87b291773e36610ae8ec35e6bd841c8:-1879311763,51482dd351e366104021dda7c49db087:1848842837,33ee01d354636610581f49fdc389a932:-777413215</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-08-30 08:48:22</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_template">sysevent_email_template</sys_db_object>
+        <sys_id>74809ce954bb48dc946ac56af4debdc4</sys_id>
+        <sys_metadata>4b5c09df93236610a020ba7efaba103d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Billing_State_Template</sys_name>
+        <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
+        <sys_parent display_value="Billing Issue">924988be93a3a210a020ba7efaba107f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
+        <sys_scope_delete display_value="">101cddaa51ed47378f45073bd1f47ef1</sys_scope_delete>
+        <sys_update_name>sysevent_email_template_4b5c09df93236610a020ba7efaba103d</sys_update_name>
+        <sys_update_version display_value="sysevent_email_template_4b5c09df93236610a020ba7efaba103d">4891421b93276610a020ba7efaba1014</sys_update_version>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-08-30 08:48:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -22,7 +22,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field/>
+        <field>patient_name</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -39,10 +39,10 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>false</map_to_field>
+        <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>submitted_by</name>
+        <name>patient_name</name>
         <not_available_conversation>false</not_available_conversation>
         <order>300</order>
         <post_insert_script/>
@@ -79,14 +79,14 @@
         <sys_created_by>Ankur.Pal</sys_created_by>
         <sys_created_on>2025-08-27 04:06:21</sys_created_on>
         <sys_id>020572ae93eb6210a020ba7efaba1025</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>Submitted by</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>patient_name</sys_name>
         <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
         <sys_update_name>item_option_new_020572ae93eb6210a020ba7efaba1025</sys_update_name>
         <sys_updated_by>Ankur.Pal</sys_updated_by>
-        <sys_updated_on>2025-08-27 08:07:22</sys_updated_on>
+        <sys_updated_on>2025-08-30 13:09:36</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

@@ -72,7 +72,7 @@
         <element label="Region" max_length="40" name="region" type="string"/>
         <element label="Ultrasound" max_length="255" name="ultrasound" type="boolean"/>
         <element label="PACC Reason" max_length="40" name="pacc_reason" type="string"/>
-        <element label="Initial Assigned to" max_length="40" name="initial_assigned_to" type="string"/>
+        <element label="Initial Assigned to" max_length="40" name="initial_assigned_to" reference="sys_user" type="reference"/>
         <element label="Additional Services" max_length="255" name="additional_services" type="boolean"/>
         <element label="Client Description" max_length="40" name="client_description" type="string"/>
         <element label="X-Ray" max_length="255" name="x_ray" type="boolean"/>

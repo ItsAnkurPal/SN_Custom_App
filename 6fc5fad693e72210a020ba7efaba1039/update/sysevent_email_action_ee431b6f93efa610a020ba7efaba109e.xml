@@ -28,7 +28,7 @@
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
-        <from/>
+        <from>gmc.helpdesk@healthcare.com</from>
         <generation_type>engine</generation_type>
         <importance/>
         <include_attachments>false</include_attachments>
@@ -56,10 +56,6 @@
 <td style="text-align: center;"><span style="font-size: 14pt;">${u_assigned_rep}</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: 14pt;"><strong>Submitted By</strong></span></td>
-<td style="text-align: center;"><span style="font-size: 14pt;">${sys_created_by}</span></td>
-</tr>
-<tr>
 <td style="text-align: center;"><span style="font-size: 14pt;"><strong>Submitted On</strong></span></td>
 <td style="text-align: center;"><span style="font-size: 14pt;">${sys_created_on}</span></td>
 </tr>
@@ -76,7 +72,7 @@
         <recipient_fields>u_assigned_rep</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
-        <reply_to/>
+        <reply_to>gmc.helpdesk@healthcare.com</reply_to>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
@@ -88,7 +84,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ee431b6f93efa610a020ba7efaba109e</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Care_Acc_AssignedRep_Notif</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
@@ -96,10 +92,21 @@
         <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
         <sys_update_name>sysevent_email_action_ee431b6f93efa610a020ba7efaba109e</sys_update_name>
         <sys_updated_by>Ankur.Pal</sys_updated_by>
-        <sys_updated_on>2025-08-30 10:07:30</sys_updated_on>
+        <sys_updated_on>2025-09-01 06:53:54</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>ee431b6f93efa610a020ba7efaba109e</id>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-09-01 06:32:50</sys_created_on>
+        <sys_id>4db68d509333aa10a020ba7efaba10bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-09-01 06:32:50</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

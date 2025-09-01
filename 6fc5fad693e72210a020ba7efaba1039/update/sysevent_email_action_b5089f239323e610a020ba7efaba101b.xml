@@ -28,7 +28,7 @@
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
-        <from/>
+        <from>gmc.helpdesk@healthcare.com</from>
         <generation_type>engine</generation_type>
         <importance/>
         <include_attachments>false</include_attachments>
@@ -39,7 +39,7 @@
         <message_html><![CDATA[<p><span style="font-size: 14pt;"><img style="display: block; margin-left: auto; margin-right: auto;" title="Global Cure Health" src="GlobalHealth.pngx" alt="" width="239" height="173" data-library="true"></span></p>
 <p style="text-align: center;"><strong><span style="font-size: 14pt; color: rgb(224, 62, 45);">Your Health. Our Mission. Seamlessly Delivered!!&nbsp;</span></strong></p>
 <p style="text-align: center;"><span style="font-size: 14pt;">Hello ${patient_name},</span></p>
-<p style="text-align: center;"><strong><span style="font-size: 14pt;">Your Care Account has been successfully submitted. &nbsp;</span></strong></p>
+<p style="text-align: center;"><strong><span style="font-size: 14pt;">Your Care Account has been successfully submitted,Please Fill the GMC Form for additional Information.&nbsp;</span></strong></p>
 <p style="text-align: center;">&nbsp;</p>
 <table style="border-collapse: collapse; width: 100.019%; border-width: 1px; border-style: double;" border="1"><colgroup><col style="width: 50%;"><col style="width: 50%;"></colgroup>
 <tbody>
@@ -71,11 +71,11 @@
         <recipient_fields>patient_name</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
-        <reply_to/>
-        <send_self>true</send_self>
+        <reply_to>gmc.helpdesk@healthcare.com</reply_to>
+        <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Your Care Account Has Been Submitted – ${number}</subject>
+        <subject>Your Care Account Has Been Submitted– ${number} Fill GMC Form</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>Ankur.Pal</sys_created_by>
@@ -83,7 +83,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b5089f239323e610a020ba7efaba101b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>GMC_Link_Patient_Notif</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global Cure Health " source="x_1812780_globalch">6fc5fad693e72210a020ba7efaba1039</sys_package>
@@ -91,10 +91,21 @@
         <sys_scope display_value="Global Cure Health ">6fc5fad693e72210a020ba7efaba1039</sys_scope>
         <sys_update_name>sysevent_email_action_b5089f239323e610a020ba7efaba101b</sys_update_name>
         <sys_updated_by>Ankur.Pal</sys_updated_by>
-        <sys_updated_on>2025-08-30 09:23:11</sys_updated_on>
+        <sys_updated_on>2025-09-01 06:37:38</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b5089f239323e610a020ba7efaba101b</id>
+        <sys_created_by>Ankur.Pal</sys_created_by>
+        <sys_created_on>2025-09-01 06:37:37</sys_created_on>
+        <sys_id>8fc749909333aa10a020ba7efaba1084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Ankur.Pal</sys_updated_by>
+        <sys_updated_on>2025-09-01 06:37:37</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
